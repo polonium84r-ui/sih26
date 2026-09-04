@@ -12,17 +12,17 @@ export const CorridorSim: React.FC<CorridorSimProps> = ({ trains, tasks }) => {
     <div style={{ padding: '0 24px 24px 24px' }}>
       {/* Friendly Guide Banner */}
       <div className="formal-panel" style={{ padding: '14px 20px', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '12px' }}>
-        <HelpCircle size={20} color="#ffffff" style={{ flexShrink: 0 }} />
+        <HelpCircle size={20} color="var(--text-primary)" style={{ flexShrink: 0 }} />
         <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
-          <strong style={{ color: '#ffffff' }}>What is Digital Twin?</strong> This live simulation models the physical railway corridor section (KM 120 - 130), showing live express train movements, active maintenance blocks, and asset condition.
+          <strong style={{ color: 'var(--text-primary)' }}>What is Digital Twin?</strong> This live simulation models the physical railway corridor section (KM 120 - 130), showing live express train movements, active maintenance blocks, and asset condition.
         </div>
       </div>
 
       <div className="formal-panel" style={{ padding: '24px' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
           <div>
-            <h2 style={{ fontSize: '1.15rem', fontWeight: 800, display: 'flex', alignItems: 'center', gap: '8px', color: '#ffffff' }}>
-              <Radio size={18} color="#ffffff" /> DIGITAL TWIN • REAL-TIME CORRIDOR MONITOR
+            <h2 style={{ fontSize: '1.15rem', fontWeight: 800, display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-primary)' }}>
+              <Radio size={18} color="var(--text-primary)" /> DIGITAL TWIN • REAL-TIME CORRIDOR MONITOR
             </h2>
             <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
               Section: Corridor A (Southern Zone) • Live Speed & Signals
@@ -35,12 +35,12 @@ export const CorridorSim: React.FC<CorridorSimProps> = ({ trains, tasks }) => {
         </div>
 
         {/* Legend */}
-        <div style={{ display: 'flex', gap: '20px', marginBottom: '16px', fontSize: '0.75rem', color: 'var(--text-secondary)', background: '#09090b', padding: '10px 16px', borderRadius: '4px', border: '1px solid var(--border-color)' }}>
+        <div style={{ display: 'flex', gap: '20px', marginBottom: '16px', fontSize: '0.75rem', color: 'var(--text-secondary)', background: 'var(--bg-dark)', padding: '10px 16px', borderRadius: '4px', border: '1px solid var(--border-color)' }}>
           <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <span style={{ width: '12px', height: '12px', background: '#ffffff', borderRadius: '2px' }} /> 🚆 Express Train Position
+            <span style={{ width: '12px', height: '12px', background: '#000000', borderRadius: '2px' }} /> 🚆 Express Train Position
           </span>
           <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <span style={{ width: '12px', height: '12px', border: '1px dashed #ffffff', background: 'rgba(255,255,255,0.1)', borderRadius: '2px' }} /> 📦 Scheduled Maintenance Block Window
+            <span style={{ width: '12px', height: '12px', border: '1px dashed #000000', background: 'rgba(0,0,0,0.1)', borderRadius: '2px' }} /> 📦 Scheduled Maintenance Block Window
           </span>
           <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
             <span style={{ width: '12px', height: '12px', background: '#3f3f46', borderRadius: '2px' }} /> 🛤️ Steel Railway Trackbed
@@ -107,25 +107,25 @@ export const CorridorSim: React.FC<CorridorSimProps> = ({ trains, tasks }) => {
           <div style={{ background: 'var(--bg-card-secondary)', padding: '16px', borderRadius: '6px', border: '1px solid var(--border-color)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <span style={{ fontSize: '0.7rem', color: 'var(--text-tertiary)', fontWeight: 700 }}>TRACK SECTION HEALTH</span>
-              <ShieldAlert size={16} color="#ffffff" />
+              <ShieldAlert size={16} color="var(--text-primary)" />
             </div>
-            <h4 style={{ color: '#ffffff', marginTop: '6px', fontSize: '0.9rem', fontWeight: 700 }}>TRK-125-001 (Rail Crack Defect)</h4>
+            <h4 style={{ color: 'var(--text-primary)', marginTop: '6px', fontSize: '0.9rem', fontWeight: 700 }}>TRK-125-001 (Rail Crack Defect)</h4>
             <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px' }}>Assigned to Block B104 for repair.</p>
           </div>
           <div style={{ background: 'var(--bg-card-secondary)', padding: '16px', borderRadius: '6px', border: '1px solid var(--border-color)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <span style={{ fontSize: '0.7rem', color: 'var(--text-tertiary)', fontWeight: 700 }}>SIGNALING STATUS</span>
-              <CheckCircle2 size={16} color="#ffffff" />
+              <CheckCircle2 size={16} color="var(--text-primary)" />
             </div>
-            <h4 style={{ color: '#ffffff', marginTop: '6px', fontSize: '0.9rem', fontWeight: 700 }}>SIG-126-01 (Point Machine Caution)</h4>
+            <h4 style={{ color: 'var(--text-primary)', marginTop: '6px', fontSize: '0.9rem', fontWeight: 700 }}>SIG-126-01 (Point Machine Caution)</h4>
             <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px' }}>Assigned to Block B104 for calibration.</p>
           </div>
           <div style={{ background: 'var(--bg-card-secondary)', padding: '16px', borderRadius: '6px', border: '1px solid var(--border-color)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <span style={{ fontSize: '0.7rem', color: 'var(--text-tertiary)', fontWeight: 700 }}>OHE CATENARY WIRE</span>
-              <CheckCircle2 size={16} color="#ffffff" />
+              <CheckCircle2 size={16} color="var(--text-primary)" />
             </div>
-            <h4 style={{ color: '#ffffff', marginTop: '6px', fontSize: '0.9rem', fontWeight: 700 }}>OHE-125-04 (Cantilever Normal)</h4>
+            <h4 style={{ color: 'var(--text-primary)', marginTop: '6px', fontSize: '0.9rem', fontWeight: 700 }}>OHE-125-04 (Cantilever Normal)</h4>
             <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px' }}>Shadow inspection co-scheduled.</p>
           </div>
         </div>

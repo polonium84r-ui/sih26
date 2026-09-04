@@ -13,8 +13,8 @@ export const AnalyticsDashboard: React.FC = () => {
     <div style={{ padding: '0 24px 24px 24px' }}>
       <div className="formal-panel" style={{ padding: '24px' }}>
         <div style={{ marginBottom: '20px', borderBottom: '1px solid var(--border-color)', paddingBottom: '12px' }}>
-          <h2 style={{ fontSize: '1.15rem', fontWeight: 800, display: 'flex', alignItems: 'center', gap: '8px', color: '#ffffff' }}>
-            <TrendingUp size={18} color="#ffffff" /> EXECUTIVE ROI & EFFICIENCY ANALYTICS
+          <h2 style={{ fontSize: '1.15rem', fontWeight: 800, display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-primary)' }}>
+            <TrendingUp size={18} color="var(--text-primary)" /> EXECUTIVE ROI & EFFICIENCY ANALYTICS
           </h2>
           <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
             Baseline performance evaluation of manual vs. AI CP-SAT block scheduling.
@@ -26,17 +26,17 @@ export const AnalyticsDashboard: React.FC = () => {
             return (
               <div key={idx} style={{ background: 'var(--bg-card-secondary)', border: '1px solid var(--border-strong)', padding: '20px', borderRadius: '6px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-                  <span style={{ fontSize: '0.85rem', fontWeight: 700, color: '#ffffff' }}>{item.metric}</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--text-primary)' }}>{item.metric}</span>
                   <span className="badge badge-clear">{item.diff} GAIN</span>
                 </div>
 
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', marginTop: '10px' }}>
-                  <div style={{ background: '#09090b', padding: '12px', borderRadius: '4px', border: '1px solid var(--border-color)' }}>
+                  <div style={{ background: 'var(--bg-dark)', padding: '12px', borderRadius: '4px', border: '1px solid var(--border-color)' }}>
                     <span style={{ fontSize: '0.7rem', color: 'var(--text-tertiary)', fontWeight: 700 }}>BASELINE (MANUAL)</span>
                     <h3 style={{ color: 'var(--text-secondary)', marginTop: '4px', fontSize: '1.4rem', fontWeight: 800 }}>{item.before}</h3>
                   </div>
-                  <div style={{ background: '#000000', padding: '12px', borderRadius: '4px', border: '1px solid #ffffff' }}>
-                    <span style={{ fontSize: '0.7rem', color: 'var(--text-secondary)', fontWeight: 700 }}>AI OPTIMIZED</span>
+                  <div style={{ background: '#000000', padding: '12px', borderRadius: '4px', border: '1px solid #000000' }}>
+                    <span style={{ fontSize: '0.7rem', color: '#a1a1aa', fontWeight: 700 }}>AI OPTIMIZED</span>
                     <h3 style={{ color: '#ffffff', marginTop: '4px', fontSize: '1.4rem', fontWeight: 800 }}>{item.after}</h3>
                   </div>
                 </div>

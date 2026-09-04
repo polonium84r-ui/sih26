@@ -1,18 +1,18 @@
 :root {
-  --bg-dark: #09090b;
-  --bg-card: #18181b;
-  --bg-card-secondary: #27272a;
-  --bg-card-hover: #27272a;
+  --bg-dark: #fafafa;
+  --bg-card: #ffffff;
+  --bg-card-secondary: #f4f4f5;
+  --bg-card-hover: #f4f4f5;
   
-  --border-color: #27272a;
-  --border-strong: #3f3f46;
-  --border-highlight: #ffffff;
+  --border-color: #e4e4e7;
+  --border-strong: #000000;
+  --border-highlight: #000000;
   
-  --text-primary: #ffffff;
-  --text-secondary: #a1a1aa;
-  --text-tertiary: #71717a;
+  --text-primary: #000000;
+  --text-secondary: #52525b;
+  --text-tertiary: #a1a1aa;
   
-  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -85,8 +85,8 @@ h1, h2, h3, h4, .font-heading {
 }
 
 .btn-formal {
-  background: #ffffff;
-  color: #000000;
+  background: #000000;
+  color: #ffffff;
   font-weight: 700;
   font-size: 0.85rem;
   border: 1px solid #ffffff;
@@ -97,13 +97,13 @@ h1, h2, h3, h4, .font-heading {
 }
 
 .btn-formal:hover {
-  background: #e4e4e7;
-  border-color: #e4e4e7;
+  background: #27272a;
+  border-color: #27272a;
 }
 
 .btn-formal-outline {
   background: transparent;
-  color: #ffffff;
+  color: #000000;
   font-weight: 600;
   font-size: 0.85rem;
   border: 1px solid var(--border-strong);
@@ -114,8 +114,8 @@ h1, h2, h3, h4, .font-heading {
 }
 
 .btn-formal-outline:hover {
-  background: var(--bg-card-secondary);
-  border-color: #ffffff;
+  background: #f4f4f5;
+  border-color: #000000;
 }
 
 /* Custom scrollbar */

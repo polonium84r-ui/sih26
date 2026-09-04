@@ -18,8 +18,8 @@ export const PriorityList: React.FC<PriorityListProps> = ({ priorities, tasks })
     <div className="formal-panel" style={{ padding: '20px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px', borderBottom: '1px solid var(--border-color)', paddingBottom: '12px' }}>
         <div>
-          <h2 style={{ fontSize: '1.05rem', fontWeight: 800, display: 'flex', alignItems: 'center', gap: '8px', color: '#ffffff' }}>
-            <AlertCircle size={18} color="#ffffff" /> AI PRIORITY ENGINE (RANKED DEFECTS)
+          <h2 style={{ fontSize: '1.05rem', fontWeight: 800, display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-primary)' }}>
+            <AlertCircle size={18} color="var(--text-primary)" /> AI PRIORITY ENGINE (RANKED DEFECTS)
           </h2>
           <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
             Which maintenance tasks should be done first? (Click any item to see full reasoning)
@@ -65,7 +65,7 @@ export const PriorityList: React.FC<PriorityListProps> = ({ priorities, tasks })
 
                   <div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                      <span style={{ fontWeight: 700, fontSize: '0.9rem', color: '#ffffff' }}>{item.task_id}</span>
+                      <span style={{ fontWeight: 700, fontSize: '0.9rem', color: 'var(--text-primary)' }}>{item.task_id}</span>
                       <span className={`badge badge-${item.priority_level.toLowerCase()}`}>
                         {item.priority_level} PRIORITY
                       </span>
@@ -78,28 +78,28 @@ export const PriorityList: React.FC<PriorityListProps> = ({ priorities, tasks })
 
                 <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
                   <div style={{ textAlign: 'right' }}>
-                    <div style={{ fontSize: '1.2rem', fontWeight: 800, color: '#ffffff' }}>
+                    <div style={{ fontSize: '1.2rem', fontWeight: 800, color: 'var(--text-primary)' }}>
                       {item.priority_score} <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)' }}>/ 100</span>
                     </div>
                     <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>
                       Click to inspect factors
                     </div>
                   </div>
-                  {isExpanded ? <ChevronUp size={18} color="#ffffff" /> : <ChevronDown size={18} color="var(--text-tertiary)" />}
+                  {isExpanded ? <ChevronUp size={18} color="var(--text-primary)" /> : <ChevronDown size={18} color="var(--text-tertiary)" />}
                 </div>
               </div>
 
               {/* Expanded Plain English Reasoning Panel */}
               {isExpanded && (
-                <div style={{ marginTop: '14px', paddingTop: '12px', borderTop: '1px solid var(--border-color)', background: '#09090b', padding: '12px', borderRadius: '4px' }}>
-                  <p style={{ fontSize: '0.75rem', fontWeight: 700, color: '#ffffff', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <div style={{ marginTop: '14px', paddingTop: '12px', borderTop: '1px solid var(--border-color)', background: 'var(--bg-dark)', padding: '12px', borderRadius: '4px' }}>
+                  <p style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '6px' }}>
                     <HelpCircle size={14} /> WHY WAS THIS GIVEN A SCORE OF {item.priority_score}?
                   </p>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                     {item.explanation_factors.map((f, i) => (
                       <div key={i} style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem', color: 'var(--text-secondary)', background: 'var(--bg-card)', padding: '6px 10px', borderRadius: '4px', border: '1px solid var(--border-color)' }}>
                         <span>• {f.factor}</span>
-                        <strong style={{ color: '#ffffff' }}>{f.impact} Points</strong>
+                        <strong style={{ color: 'var(--text-primary)' }}>{f.impact} Points</strong>
                       </div>
                     ))}
                   </div>

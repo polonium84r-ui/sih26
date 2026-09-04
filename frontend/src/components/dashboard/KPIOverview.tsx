@@ -44,13 +44,13 @@ export const KPIOverview: React.FC = () => {
                 <p style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', textTransform: 'uppercase', fontWeight: 700, letterSpacing: '0.05em' }}>
                   {kpi.title}
                 </p>
-                <h3 style={{ fontSize: '1.8rem', fontWeight: 800, margin: '4px 0', color: '#ffffff' }}>
+                <h3 style={{ fontSize: '1.8rem', fontWeight: 800, margin: '4px 0', color: 'var(--text-primary)' }}>
                   {kpi.value}
                 </h3>
               </div>
               <div style={{ 
-                background: '#27272a', 
-                border: '1px solid #3f3f46',
+                background: '#000000', 
+                border: '1px solid #000000',
                 padding: '10px', 
                 borderRadius: '6px',
                 display: 'flex'
@@ -60,7 +60,7 @@ export const KPIOverview: React.FC = () => {
             </div>
 
             <div style={{ borderTop: '1px solid var(--border-color)', paddingTop: '8px', marginTop: '10px' }}>
-              <p style={{ fontSize: '0.75rem', fontWeight: 700, color: '#ffffff' }}>
+              <p style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-primary)' }}>
                 {kpi.sub}
               </p>
               <p style={{ fontSize: '0.7rem', color: 'var(--text-secondary)', marginTop: '2px' }}>

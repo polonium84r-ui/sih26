@@ -18,32 +18,24 @@ This project is an AI-powered system designed to optimize railway block maintena
 
 ## 🏗️ System Architecture
 
-The system acts as an intelligence layer above existing railway infrastructure.
+The system acts as an intelligence layer above existing railway infrastructure, consisting of a Python FastAPI Backend and a React TypeScript Frontend.
 
-```text
-                         ┌──────────────────────────────┐
-                         │ EXISTING RAILWAY SYSTEMS     │
-                         └──────────────────────────────┘
-                                      │
-              ┌───────────┬───────────┼───────────┬───────────┐
-              ▼           ▼           ▼           ▼           ▼
-            TMS         SMMS        TDMS         COA        BDMS
-        Track Data    Signal Data  OHE Data   Train Data  Block Data
-              │           │           │           │           │
-              └───────────┴───────────┼───────────┴───────────┘
-                                      ▼
-                        ┌───────────────────────────┐
-                        │    YOUR PROPOSED SYSTEM   │
-                        │                           │
-                        │  1. Normalizer Service    │
-                        │  2. AI Priority Engine    │
-                        │  3. Domino AI (Risk)      │
-                        │  4. Block Optimizer       │
-                        └─────────────┬─────────────┘
-                                      │
-                                      ▼
-                                API / FRONTEND
-```
+### 🔌 1. External Systems Integration (Mocked)
+The system integrates with 5 critical railway data sources:
+* **TMS**: Track Management System
+* **SMMS**: Signal Maintenance Management System
+* **TDMS**: Traction Distribution Management System
+* **COA**: Control Office Application (Train movements & timetables)
+* **BDMS**: Block Data Management System
+
+### 🧠 2. Backend Intelligence Modules
+* **Data Normalizer**: Ingests and standardizes diverse incoming data from the 5 external systems.
+* **AI Priority Engine**: Dynamically scores and ranks maintenance tasks based on severity and urgency.
+* **Domino AI (Risk Engine)**: Predicts cascading delays and downstream impacts if maintenance is deferred.
+* **Block Optimizer (CP-SAT)**: Uses Google OR-Tools Constraint Programming to calculate optimal, conflict-free maintenance windows that maximize department co-location and minimize train delays.
+
+### 🖥️ 3. Executive Dashboard (Frontend)
+A professional, high-contrast dashboard displaying real-time digital twins, Gantt chart scheduling (Block Tetris), and ROI analytics.
 
 ## 🚀 Getting Started
 

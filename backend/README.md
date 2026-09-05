@@ -1,46 +1,48 @@
 # 🚆 Backend: AI & Optimization Engine
 
-This directory contains the Python-based backend for the AI Railway Block Planner & Optimization System. It is built using FastAPI and integrates several advanced AI and optimization techniques to manage railway maintenance blocks efficiently.
+This directory contains the Python-based backend for the AI Railway Block Planner & Optimization System. It is built using FastAPI, SQLAlchemy ORM, and integrates several advanced AI and optimization techniques to manage railway maintenance blocks efficiently.
 
 ## 🏗️ Architecture Modules
 
-The backend is composed of four main intelligence modules:
+### 1. Database & Persistence Layer (`database.py`, `models/orm.py`, `seed.py`)
+- **ORM Models**: `TaskORM`, `TrainORM`, `BlockRequestORM`, `BlockRecommendationORM`.
+- **Database Support**: PostgreSQL (via `psycopg2-binary`) with automatic fallback to local SQLite (`railway_planner.db`).
+- **Seeding Script**: `python -m backend.app.seed` populates schema tables directly from system adapters and solver calculations.
 
-### 1. Data Ingestion & Normalizer (`integrations/`)
-- **Purpose**: Acts as the adapter layer to external railway systems.
-- **External Systems Mocked**: TMS (Track), SMMS (Signals), TDMS (OHE), COA (Train Timetable), BDMS (Block Data).
-- **Function**: Standardizes disparate incoming data formats into a unified internal model for the AI to process.
+### 2. Data Ingestion & Normalizer (`integrations/`)
+- **Adapters**: TMS (Track), SMMS (Signals), TDMS (OHE), COA (Train Timetable), BDMS (Block Data).
+- **Function**: Standardizes disparate incoming data formats into unified domain models.
 
-### 2. AI Priority Engine (`ai/priority_engine/`)
-- **Purpose**: Dynamically ranks maintenance tasks based on urgency and criticality.
-- **Logic**: Evaluates parameters like defect severity, department (e.g., Track vs. Signal), and due dates to generate a priority score (0-100).
-- **Output**: A sorted list of maintenance tasks with detailed reasoning for their ranking.
+### 3. AI Priority Engine (`ai/priority_engine/`)
+- **Logic**: Evaluates parameters like defect severity, department criticality, and due dates to generate explainable priority scores (0–100).
 
-### 3. Domino AI Engine (`ai/domino/`)
-- **Purpose**: Evaluates the cascading risk of delaying maintenance.
-- **Logic**: Predicts how a delayed repair on one asset (e.g., a cracked rail) might force speed restrictions, subsequently delaying specific express trains and causing a domino effect across the network.
-- **Output**: Cascade risk scores and downstream impact warnings.
+### 4. Domino AI Engine (`ai/domino_ai/`)
+- **Logic**: Predicts cascading delays and downstream impacts if maintenance is deferred across intersecting train timetables.
 
-### 4. CP-SAT Block Optimizer (`optimizer/`)
-- **Purpose**: Computes the optimal schedule for maintenance blocks.
-- **Logic**: Uses Google OR-Tools Constraint Programming (CP-SAT). It finds time windows where multiple departments can work simultaneously (co-location) while strictly avoiding collisions with scheduled train movements.
-- **Output**: Optimal block recommendations with start/end times and participating departments.
+### 5. CP-SAT Block Optimizer (`optimizer/`)
+- **Logic**: Uses Google OR-Tools Constraint Programming (CP-SAT) and spatial proximity grouping ($\le 3\text{ km}$) to find multi-department co-located block windows that avoid train movement schedule conflicts.
 
-## 🚀 Running the Backend Locally
+## 🚀 Quick Commands
 
-1. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   .\venv\Scripts\activate
-   ```
-2. Install dependencies:
+1. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-3. Start the FastAPI server:
+
+2. **Seed Database**:
    ```bash
-   uvicorn app.main:app --reload --port 8000
+   python -m backend.app.seed
    ```
 
-## 📖 API Documentation
-Once running, interactive API documentation is available at `http://localhost:8000/docs`.
+3. **Run Server**:
+   ```bash
+   uvicorn backend.app.main:app --reload --port 8000
+   ```
+
+4. **Run Integration Tests**:
+   ```bash
+   python tests/unit/test_pipeline.py
+   ```
+
+## 📖 Interactive API Documentation
+Once running, interactive OpenAPI documentation is available at `http://localhost:8000/docs`.

@@ -55,3 +55,17 @@ export interface BlockRecommendation {
   conflict_status: 'CLEAR' | 'CONFLICT_DETECTED';
   optimization_score: number;
 }
+
+export interface TrainSchedule {
+  train_id: string;
+  train_number: string;
+  train_name: string;
+  train_type: 'EXPRESS' | 'PASSENGER' | 'FREIGHT';
+  corridor_id?: string;
+  start_km: number;
+  end_km: number;
+  scheduled_arrival: string;
+  scheduled_departure: string;
+  priority_level: number;
+}
+

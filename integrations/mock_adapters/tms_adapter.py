@@ -8,25 +8,36 @@ class TMSAdapter:
         now = datetime.now()
         return [
             {
-                "asset_id": "TRK-125-001",
+                "asset_id": "TRK-232-001",
                 "asset_type": "TRACK",
-                "location_km": 125.4,
-                "defect_type": "RAIL_CRACK",
-                "severity": "HIGH",
+                "location_km": 232.4,
+                "defect_type": "RAIL_CRACK_FRACTURE",
+                "severity": "CRITICAL",
                 "reported_date": (now - timedelta(days=2)).isoformat(),
-                "due_date": (now + timedelta(days=1)).isoformat(),
-                "estimated_duration_minutes": 120,
+                "due_date": (now + timedelta(hours=14)).isoformat(),
+                "estimated_duration_minutes": 150,
                 "department": "ENGINEERING"
             },
             {
-                "asset_id": "TRK-128-004",
+                "asset_id": "TRK-248-004",
                 "asset_type": "TRACK",
-                "location_km": 128.1,
-                "defect_type": "SLEEPER_DAMAGE",
-                "severity": "MEDIUM",
+                "location_km": 248.1,
+                "defect_type": "PSC_SLEEPER_DAMAGE",
+                "severity": "HIGH",
                 "reported_date": (now - timedelta(days=1)).isoformat(),
-                "due_date": (now + timedelta(days=4)).isoformat(),
+                "due_date": (now + timedelta(days=2)).isoformat(),
                 "estimated_duration_minutes": 90,
+                "department": "ENGINEERING"
+            },
+            {
+                "asset_id": "TRK-116-002",
+                "asset_type": "TRACK",
+                "location_km": 116.5,
+                "defect_type": "WELD_MISALIGNMENT",
+                "severity": "MEDIUM",
+                "reported_date": (now - timedelta(days=3)).isoformat(),
+                "due_date": (now + timedelta(days=5)).isoformat(),
+                "estimated_duration_minutes": 60,
                 "department": "ENGINEERING"
             }
         ]

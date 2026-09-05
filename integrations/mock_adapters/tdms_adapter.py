@@ -8,14 +8,25 @@ class TDMSAdapter:
         now = datetime.now()
         return [
             {
-                "asset_id": "OHE-125-04",
+                "asset_id": "OHE-234-04",
                 "asset_type": "OHE",
-                "location_km": 125.8,
-                "fault_type": "CANTILEVER_INSPECTION",
+                "location_km": 234.2,
+                "fault_type": "CANTILEVER_WEAR_INSPECTION",
                 "severity": "HIGH",
                 "reported_date": (now - timedelta(days=1)).isoformat(),
                 "due_date": (now + timedelta(days=2)).isoformat(),
                 "duration_minutes": 120,
+                "department": "TRACTION"
+            },
+            {
+                "asset_id": "OHE-250-02",
+                "asset_type": "OHE",
+                "location_km": 250.0,
+                "fault_type": "CATENARY_DROPPER_REPLACEMENT",
+                "severity": "MEDIUM",
+                "reported_date": (now - timedelta(days=2)).isoformat(),
+                "due_date": (now + timedelta(days=3)).isoformat(),
+                "duration_minutes": 90,
                 "department": "TRACTION"
             }
         ]

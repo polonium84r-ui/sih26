@@ -9,23 +9,23 @@ class BDMSAdapter:
         target_date = datetime(now.year, now.month, now.day) + timedelta(days=1)
         return [
             {
-                "request_id": "BR-1001",
+                "request_id": "BR-20260905-01",
                 "department": "ENGINEERING",
-                "corridor_id": "CORRIDOR-A",
-                "location_start_km": 125.0,
-                "location_end_km": 127.0,
-                "duration_minutes": 120,
+                "corridor_id": "KGP-KUR-CORRIDOR",
+                "location_start_km": 230.0,
+                "location_end_km": 255.0,
+                "duration_minutes": 150,
                 "requested_date": target_date.isoformat(),
-                "priority": "HIGH",
+                "priority": "CRITICAL",
                 "status": "PENDING"
             },
             {
-                "request_id": "BR-1002",
+                "request_id": "BR-20260905-02",
                 "department": "TRACTION",
-                "corridor_id": "CORRIDOR-A",
-                "location_start_km": 125.5,
-                "location_end_km": 126.8,
-                "duration_minutes": 90,
+                "corridor_id": "KGP-KUR-CORRIDOR",
+                "location_start_km": 234.0,
+                "location_end_km": 250.0,
+                "duration_minutes": 120,
                 "requested_date": target_date.isoformat(),
                 "priority": "HIGH",
                 "status": "PENDING"

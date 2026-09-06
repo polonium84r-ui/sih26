@@ -1,0 +1,1506 @@
+erroringStations: {}
+warningStations: {}
+updates:
+    AAGH:
+        code: AAGH
+        name: ANTAGARH
+        lat: "20.0940232"
+        lng: "81.1386294"
+    ALJ:
+        code: ALJ
+        name: ALIGANJ
+        lat: "29.11418"
+        lng: "78.91951"
+    ALPD:
+        code: ALPD
+        name: ADALPAHARI
+        lat: "24.2082189"
+        lng: "87.7094874"
+    ALUH:
+        code: ALUH
+        name: ALAULI
+        lat: "25.6436826"
+        lng: "86.4123094"
+    AMGU:
+        code: AMGU
+        name: AMMUGUDA
+        lat: "17.488686"
+        lng: "78.5232091"
+    AMNE:
+        code: AMNE
+        name: AMALNER B
+        lat: "18.9325677"
+        lng: "75.3289862"
+    AMRA:
+        code: AMRA
+        name: AMHA PIPRA
+        lat: "26.146623"
+        lng: "86.7923781"
+    AMTA:
+        code: AMTA
+        name: AMTA
+        lat: "22.574868"
+        lng: "88.0188971"
+    ANLG:
+        code: ANLG
+        name: AMAN LODGE
+        lat: "19.0010663"
+        lng: "73.2814905"
+    ANMP:
+        code: ANMP
+        name: ARJUN NAGAR
+        lat: "24.397166"
+        lng: "86.637046"
+    ANT:
+        code: ANT
+        name: ANANTNAG
+        lat: "33.7386014"
+        lng: "75.10572"
+    ATRI:
+        code: ATRI
+        name: ATRI PH
+        lat: "20.2037292"
+        lng: "85.4975682"
+    AYC:
+        code: AYC
+        name: AYODHYA CANTT
+        lat: "26.7681"
+        lng: "82.1293"
+    BADA:
+        code: BADA
+        name: Bardha Halt
+        lat: "26.3368126"
+        lng: "87.5307787"
+    BAHL:
+        code: BAHL
+        name: BANIHAL
+        lat: "33.4509"
+        lng: "75.1864"
+    BBRI:
+        code: BBRI
+        name: Banshbari Halt
+        lat: "26.1806"
+        lng: "87.4276251"
+    BCL:
+        code: BCL
+        name: MUMBAI CENTRAL(L)
+        lat: "18.9696253"
+        lng: "72.8144371"
+    BDBR:
+        code: BDBR
+        name: Bhogdabar Halt
+        lat: "26.3841199"
+        lng: "88.0611591"
+    BDNH:
+        code: BDNH
+        name: BHUDEVINAGAR HALT
+        lat: "17.4930836"
+        lng: "78.5018439"
+    BEED:
+        code: BEED
+        name: Beed
+        lat: "18.9717298"
+        lng: "75.7319261"
+    BHAN:
+        code: BHAN
+        name: Bhoyani
+        lat: "23.3610288"
+        lng: "72.2319436"
+    BIDD:
+        code: BIDD
+        name: BIDIYAD
+        lat: "26.9809169"
+        lng: "74.7032131"
+    BIGJ:
+        code: BIGJ
+        name: BIBIGANJ
+        lat: "26.3653681"
+        lng: "87.7736728"
+    BIR:
+        code: BIR
+        name: BIR
+        lat: "22.0527586"
+        lng: "76.546937"
+    BIV:
+        code: BIV
+        name: BAMHNI BANJAR
+        lat: "22.4781485"
+        lng: "80.3599858"
+    BIYA:
+        code: BIYA
+        name: BANIYANA
+        lat: "26.8237746"
+        lng: "76.2955756"
+    BJMA:
+        code: BJMA
+        name: BURJ MOHAR
+        lat: "30.1891176"
+        lng: "74.1906236"
+    BLPA:
+        code: BLPA
+        name: BILASIPARA
+        lat: "26.2425685"
+        lng: "90.2336875"
+    BLRA:
+        code: BLRA
+        name: Bilara
+        lat: "26.1862526"
+        lng: "73.6974203"
+    BMWS:
+        code: BMWS
+        name: BAMANWAS
+        lat: "26.534993"
+        lng: "76.5781826"
+    BNOI:
+        code: BNOI
+        name: BINDORI
+        lat: "26.5151663"
+        lng: "76.365323"
+    BODG:
+        code: BODG
+        name: BODAGRAM PH
+        lat: "23.64495"
+        lng: "84.6726241"
+    BOUH:
+        code: BOUH
+        name: BOUDH
+        lat: "20.8045105"
+        lng: "84.282824"
+    BOYA:
+        code: BOYA
+        name: BOTHIA P.H.
+        lat: "22.3853806"
+        lng: "79.9626044"
+    BPBS:
+        code: BPBS
+        name: BALLALPUR
+        lat: "24.7548596"
+        lng: "87.910941"
+    BPGJ:
+        code: BPGJ
+        name: BHARPURA PAHLEJAGHAT JN.
+        lat: "25.6998562"
+        lng: "85.1303458"
+    BQSP:
+        code: BQSP
+        name: BASUCHAK HALT
+        lat: "25.05145"
+        lng: "84.9658376"
+    BRGL:
+        code: BRGL
+        name: BURGULA HALT
+        lat: "16.9763853"
+        lng: "78.2025063"
+    BROR:
+        code: BROR
+        name: BERORE
+        lat: "29.19973"
+        lng: "73.2929751"
+    BRRZ:
+        code: BRRZ
+        name: BARARA BUZURG
+        lat: "26.0451758"
+        lng: "81.0973393"
+    BRSR:
+        code: BRSR
+        name: BIRANARSINGHPUR
+        lat: "20.7370114"
+        lng: "84.3432101"
+    BSNP:
+        code: BSNP
+        name: BISHUNPUR
+        lat: "25.5378152"
+        lng: "86.4218278"
+    BSWD:
+        code: BSWD
+        name: BHEMSWADI
+        lat: "21.4918218"
+        lng: "71.358114"
+    BTHN:
+        code: BTHN
+        name: BITHAN
+        lat: "25.6986912"
+        lng: "86.2807589"
+    BUBA:
+        code: BUBA
+        name: BIJUBIGHA HALT
+        lat: "25.4438708"
+        lng: "85.1387387"
+    BYQ:
+        code: BYQ
+        name: BAHAI
+        lat: "26.1331611"
+        lng: "81.0068842"
+    CBCC:
+        code: CBCC
+        name: CHANDLODIYA B CABIN
+        lat: "23.0806839"
+        lng: "72.5405713"
+    CBDH:
+        code: CBDH
+        name: CBD P.H.
+        lat: "21.1686"
+        lng: "72.0078906"
+    CCR:
+        code: CCR
+        name: Chinchuria
+        lat: "23.738482"
+        lng: "86.9656641"
+    CHF:
+        code: CHF
+        name: Chunnabhatti
+        lat: "19.0517347"
+        lng: "72.8664999"
+    CHNU:
+        code: CHNU
+        name: CHHANUA
+        lat: "22.1321483"
+        lng: "86.1623158"
+    CMBR:
+        code: CMBR
+        name: Chembur
+        lat: "19.0623648"
+        lng: "72.8991331"
+    CNKH:
+        code: CNKH
+        name: CHINNAKOTE
+        lat: "12.9812862"
+        lng: "78.2259222"
+    CPPR:
+        code: CPPR
+        name: CHAMPAPUR HALT
+        lat: "25.4608278"
+        lng: "85.5054309"
+    DBHL:
+        code: DBHL
+        name: DOBH BAHALI
+        lat: "28.8805447"
+        lng: "76.5233734"
+    DDWA:
+        code: DDWA
+        name: DEEDWANA
+        lat: "26.6104118"
+        lng: "76.3082147"
+    DEIA:
+        code: DEIA
+        name: Deoria
+        lat: "26.182912"
+        lng: "84.9935154"
+    DELI:
+        code: DELI
+        name: DEOLI
+        lat: "20.6437425"
+        lng: "78.4937975"
+    DLPR:
+        code: DLPR
+        name: DAYALPUR
+        lat: "25.6361659"
+        lng: "81.8911273"
+    DNU:
+        code: DNU
+        name: DALSANUR
+        lat: "13.2690105"
+        lng: "78.169987"
+    DPDH:
+        code: DPDH
+        name: DHANPATDIH
+        lat: "24.4173037"
+        lng: "86.9133906"
+    DSPL:
+        code: DSPL
+        name: DASPALLA
+        lat: "20.3453354"
+        lng: "84.8543189"
+    EKNR:
+        code: EKNR
+        name: EKTA NAGAR
+        lat: "21.8874"
+        lng: "73.6862"
+    FPMP:
+        code: FPMP
+        name: FATEHPUR MAKRANDPUR
+        lat: "28.3768501"
+        lng: "77.6751203"
+    FSW:
+        code: FSW
+        name: FATEH SINGHWALA
+        lat: "29.91248"
+        lng: "74.1009351"
+    FZGH:
+        code: FZGH
+        name: FEROZGUDA HALT
+        lat: "17.4647301"
+        lng: "78.4601652"
+    GATL:
+        code: GATL
+        name: GATL
+        lat: "24.3059684"
+        lng: "76.5131543"
+    GBPM:
+        code: GBPM
+        name: GADHI BERI
+        lat: "27.3218551"
+        lng: "77.7007948"
+    GDH:
+        code: GDH
+        name: GIDNAHALI
+        lat: "13.41429"
+        lng: "77.8087556"
+    GEBL:
+        code: GEBL
+        name: GOREBAL
+        lat: "15.686318"
+        lng: "76.7402109"
+    GHLU:
+        code: GHLU
+        name: GHALLU
+        lat: "30.2531016"
+        lng: "74.1090682"
+    GHUM:
+        code: GHUM
+        name: Ghum
+        lat: "27.0083305"
+        lng: "88.251162"
+    GJT:
+        code: GJT
+        name: GANNAGHATTA
+        lat: "13.2136622"
+        lng: "78.1365129"
+    GJWL:
+        code: GJWL
+        name: GAJWEL
+        lat: "17.8599"
+        lng: "78.6651351"
+    GKG:
+        code: GKG
+        name: GOKULGARH
+        lat: "28.2463718"
+        lng: "76.617281"
+    GKV:
+        code: GKV
+        name: GOOTIHALLI
+        lat: "13.2344171"
+        lng: "78.1425629"
+    GNWA:
+        code: GNWA
+        name: GHUNWARA
+        lat: "24.1343998"
+        lng: "80.6301407"
+    GPSA:
+        code: GPSA
+        name: GHATPARSIA HALT
+        lat: "22.0626673"
+        lng: "79.0343067"
+    GRHI:
+        code: GRHI
+        name: GARHI
+        lat: "29.0575214"
+        lng: "76.0714717"
+    GSK:
+        code: GSK
+        name: GHUSIA KALAN HALT
+        lat: "25.1847617"
+        lng: "84.2424691"
+    GSX:
+        code: GSX
+        name: GANDHI SMRAK RD
+        lat: "20.8728201"
+        lng: "77.0179647"
+    HAPR:
+        code: HAPR
+        name: HANAMAPUR
+        lat: "15.6360514"
+        lng: "76.0663662"
+    HBLN:
+        code: HBLN
+        name: HBL NAGAR
+        lat: "17.1338028"
+        lng: "78.2729433"
+    HHP:
+        code: HHP
+        name: HARISHPUR
+        lat: "29.5623948"
+        lng: "77.3875264"
+    HRLT:
+        code: HRLT
+        name: HARLATANR
+        lat: "24.5310207"
+        lng: "86.9198771"
+    HRNS:
+        code: HRNS
+        name: HARISING
+        lat: "24.2391841"
+        lng: "87.5738587"
+    HTLA:
+        code: HTLA
+        name: HATOLA
+        lat: "18.9627176"
+        lng: "75.2704435"
+    HUD:
+        code: HUD
+        name: HUDUKULA
+        lat: "13.0728428"
+        lng: "78.1537863"
+    HUFP:
+        code: HUFP
+        name: HARAULI FATEHPUR
+        lat: "25.7660436"
+        lng: "85.2168629"
+    HUN:
+        code: HUN
+        name: HUNSENAHALLI
+        lat: "13.4001476"
+        lng: "77.9465164"
+    IDS:
+        code: IDS
+        name: ISHARDASPUR
+        lat: "25.948274"
+        lng: "81.2505688"
+    IKRA:
+        code: IKRA
+        name: Ikra Junction
+        lat: "23.6962774"
+        lng: "87.1116454"
+    IMBG:
+        code: IMBG
+        name: IMLIBHAGA HALT
+        lat: "25.3008463"
+        lng: "85.5315387"
+    INCI:
+        code: INCI
+        name: ISHAN CHANDI HALT
+        lat: "23.3349643"
+        lng: "87.7378219"
+    JAKA:
+        code: JAKA
+        name: JUNAKHERA
+        lat: "24.4594771"
+        lng: "76.2973327"
+    JAPN:
+        code: JAPN
+        name: JHALRAPATAN
+        lat: "24.5330234"
+        lng: "76.1938206"
+    JDHH:
+        code: JDHH
+        name: JANDHERA HALT
+        lat: "29.8617669"
+        lng: "77.4796901"
+    JKDK:
+        code: JKDK
+        name: JHARKHAND DHAM
+        lat: "24.4086109"
+        lng: "86.0513061"
+    JLPH:
+        code: JLPH
+        name: JALALPUR HALT
+        lat: "25.3043939"
+        lng: "86.0038441"
+    JMA:
+        code: JMA
+        name: Jamuria
+        lat: "23.7384601"
+        lng: "86.8858384"
+    JNJ:
+        code: JNJ
+        name: Juinagar
+        lat: "19.0561506"
+        lng: "73.0146499"
+    JOBT:
+        code: JOBT
+        name: JOBAT
+        lat: "22.402807"
+        lng: "74.5531324"
+    JRMA:
+        code: JRMA
+        name: JHARAMUNDA
+        lat: "20.7738503"
+        lng: "84.1341086"
+    JRTB:
+        code: JRTB
+        name: JHARTARBHA
+        lat: "20.7491495"
+        lng: "83.7093213"
+    JRTR:
+        code: JRTR
+        name: JURTARA HALT
+        lat: "22.2530758"
+        lng: "79.7568047"
+    JSE:
+        code: JSE
+        name: JAMSOLE
+        lat: "21.8734956"
+        lng: "86.8134883"
+    JTNU:
+        code: JTNU
+        name: Jatnandur
+        lat: "18.98088"
+        lng: "75.4233451"
+    JWKA:
+        code: JWKA
+        name: JANDWALA KHARTA
+        lat: "30.3583961"
+        lng: "74.0290799"
+    KADA:
+        code: KADA
+        name: KHANDALA(M.P.)
+        lat: "22.3560264"
+        lng: "74.4698756"
+    KADI:
+        code: KADI
+        name: Kadi
+        lat: "23.292412"
+        lng: "72.3240871"
+    KAGJ:
+        code: KAGJ
+        name: KALIAGANJ
+        lat: "26.3469642"
+        lng: "87.6390102"
+    KAKI:
+        code: KAKI
+        name: KAKNI
+        lat: "24.54252"
+        lng: "86.9941051"
+    KALM:
+        code: KALM
+        name: KALAMB
+        lat: "20.4822071"
+        lng: "78.3555525"
+    KANR:
+        code: KANR
+        name: KUKANUR
+        lat: "15.4874043"
+        lng: "75.9866049"
+    KARI:
+        code: KARI
+        name: KHARI
+        lat: "33.3873535"
+        lng: "75.1395767"
+    KASA:
+        code: KASA
+        name: KANSA
+        lat: "23.9299899"
+        lng: "72.0603191"
+    KDGO:
+        code: KDGO
+        name: Kadogaon Halt
+        lat: "26.3506472"
+        lng: "88.006017"
+    KGBP:
+        code: KGBP
+        name: KHONGSANG
+        lat: "24.8358533"
+        lng: "93.4878025"
+    KGV:
+        code: KGV
+        name: KONAGAYALLI
+        lat: "14.0262472"
+        lng: "75.490004"
+    KHAA:
+        code: KHAA
+        name: WETALWADI
+        lat: "18.8919257"
+        lng: "75.1868048"
+    KHAG:
+        code: KHAG
+        name: Kharghar
+        lat: "19.0264299"
+        lng: "73.056628"
+    KHDR:
+        code: KHDR
+        name: KHANDARI HALT
+        lat: "29.1814102"
+        lng: "76.672009"
+    KHTI:
+        code: KHTI
+        name: KUSHTAGI
+        lat: "15.7508483"
+        lng: "76.2020788"
+    KHUH:
+        code: KHUH
+        name: KHARUARA HALT
+        lat: "25.4079331"
+        lng: "85.5454209"
+    KHUT:
+        code: KHUT
+        name: KHUNTALA
+        lat: "26.5344669"
+        lng: "76.5667734"
+    KIAD:
+        code: KIAD
+        name: KEMPEGOWDA INTERNATIONAL AIRPORT STATION
+        lat: "13.210671"
+        lng: "77.6734591"
+    KKF:
+        code: KKF
+        name: Kankaria
+        lat: "23.00951"
+        lng: "72.6040751"
+    KMHN:
+        code: KMHN
+        name: KAMTHAN
+        lat: "25.6034084"
+        lng: "86.420259"
+    KMPU:
+        code: KMPU
+        name: KAMALAPUR
+        lat: "17.5868187"
+        lng: "76.9788495"
+    KNDS:
+        code: KNDS
+        name: Khandeshwar
+        lat: "19.0073656"
+        lng: "73.0926883"
+    KOTT:
+        code: KOTT
+        name: KOTTUR HALT
+        lat: "17.1515001"
+        lng: "78.2816594"
+    KSVR:
+        code: KSVR
+        name: KESHAV NAGAR HALT
+        lat: "29.2114021"
+        lng: "73.4547518"
+    KTGG:
+        code: KTGG
+        name: KARATAGI
+        lat: "15.6195221"
+        lng: "76.6773485"
+    KTRI:
+        code: KTRI
+        name: KATARI
+        lat: "24.9997754"
+        lng: "85.2686781"
+    KUCE:
+        code: KUCE
+        name: KUCHAI
+        lat: "22.0083698"
+        lng: "86.697195"
+    KULH:
+        code: KULH
+        name: KULHA-HALT
+        lat: "26.3677948"
+        lng: "80.6614049"
+    KURV:
+        code: KURV
+        name: KURVA
+        lat: "24.2477928"
+        lng: "87.2877454"
+    KWPR:
+        code: KWPR
+        name: KHAWASPUR
+        lat: "26.2388894"
+        lng: "87.3821418"
+    LIL:
+        code: LIL
+        name: LILMA
+        lat: "25.750917"
+        lng: "70.4696854"
+    LLST:
+        code: LLST
+        name: LALSOT
+        lat: "26.5472507"
+        lng: "76.3539339"
+    LNBI:
+        code: LNBI
+        name: LINGANABANDI
+        lat: "15.6998835"
+        lng: "76.1583825"
+    LSMP:
+        code: LSMP
+        name: LAKSHMAPUR
+        lat: "18.1250016"
+        lng: "78.36802"
+    LXMP:
+        code: LXMP
+        name: LAKXMIPUR
+        lat: "26.3095332"
+        lng: "87.4150925"
+    MACI:
+        code: MACI
+        name: MARACHI HALT
+        lat: "25.4489773"
+        lng: "85.1152492"
+    MAHM:
+        code: MAHM
+        name: MEHAM
+        lat: "28.9818767"
+        lng: "76.2572339"
+    MALR:
+        code: MALR
+        name: MALLUR
+        lat: "11.5543936"
+        lng: "78.1342438"
+    MANR:
+        code: MANR
+        name: Mansarovar
+        lat: "19.0165576"
+        lng: "73.0806949"
+    MASS:
+        code: MASS
+        name: CHENNAI CENTRAL SUBURBAN STATION
+        lat: "13.0833296"
+        lng: "80.2737504"
+    MATL:
+        code: MATL
+        name: MATLA
+        lat: "22.3330918"
+        lng: "88.6276853"
+    MBDD:
+        code: MBDD
+        name: MAA BARAHI DEVI DHAM
+        lat: "25.8023933"
+        lng: "82.0405316"
+    MBDP:
+        code: MBDP
+        name: MAA BELHA DEVI DHAM PRATAPGARH
+        lat: "25.9131355"
+        lng: "81.996984"
+    MCDA:
+        code: MCDA
+        name: MAA CHANDIKA DEVI DHAM ANTU
+        lat: "26.0552549"
+        lng: "81.8984076"
+    MCTM:
+        code: MCTM
+        name: MARTYR CAPTAIN TUSHAR MAHAJAN
+        lat: "32.9262"
+        lng: "75.1518"
+    MCY:
+        code: MCY
+        name: MACHHRIAWAN HALT
+        lat: "25.4623842"
+        lng: "85.2933619"
+    MDAK:
+        code: MDAK
+        name: MEDAK
+        lat: "18.0609431"
+        lng: "78.2798787"
+    MDGB:
+        code: MDGB
+        name: MADHABNAGAR HALT
+        lat: "21.9388378"
+        lng: "88.2193795"
+    MDWI:
+        code: MDWI
+        name: MANDAWARI
+        lat: "26.4733055"
+        lng: "76.4256066"
+    METR:
+        code: METR
+        name: METHI TIKUR
+        lat: "26.6915141"
+        lng: "80.4280808"
+    MKAK:
+        code: MKAK
+        name: MUNDAKAKANNI AMMAN KOIL
+        lat: "13.0407169"
+        lng: "80.2673168"
+    MKGD:
+        code: MKGD
+        name: MANIKAGODA
+        lat: "20.169482"
+        lng: "85.2235321"
+    MKMN:
+        code: MKMN
+        name: MOKHRA MADINA
+        lat: "28.908412"
+        lng: "76.425302"
+    MKTL:
+        code: MKTL
+        name: MAKTHAL
+        lat: "16.5297521"
+        lng: "77.5186346"
+    MLKN:
+        code: MLKN
+        name: MUNDHAL KALAN
+        lat: "28.99894"
+        lng: "76.1978151"
+    MLTI:
+        code: MLTI
+        name: MALTI
+        lat: "25.2214483"
+        lng: "85.6067369"
+    MNKD:
+        code: MNKD
+        name: Mankhurd
+        lat: "19.0484714"
+        lng: "72.9298213"
+    MRDA:
+        code: MRDA
+        name: MARODA P.H.
+        lat: "20.0926023"
+        lng: "79.6587439"
+    MTDB:
+        code: MTDB
+        name: MERTA ROAD BYPASS
+        lat: "26.731194"
+        lng: "73.9228851"
+    MTKR:
+        code: MTKR
+        name: MATOKHAR
+        lat: "25.1318923"
+        lng: "85.8060763"
+    NCPM:
+        code: NCPM
+        name: NISCHINDAPUR MARKET HALT
+        lat: "21.9873295"
+        lng: "88.2168182"
+    NCRM:
+        code: NCRM
+        name: NACHARAM
+        lat: "17.8327605"
+        lng: "78.5244673"
+    NDAM:
+        code: NDAM
+        name: NADIGAM HALT
+        lat: "34.0690069"
+        lng: "74.6612486"
+    NDIM:
+        code: NDIM
+        name: NANDAIGRAM HALT
+        lat: "23.3073452"
+        lng: "88.3144851"
+    NDMH:
+        code: NDMH
+        name: NEREDMET HALT
+        lat: "17.47872"
+        lng: "78.5332851"
+    NDON:
+        code: NDON
+        name: NADAON HALT
+        lat: "25.5672715"
+        lng: "84.0159094"
+    NEU:
+        code: NEU
+        name: Nerul
+        lat: "19.033505"
+        lng: "73.0155394"
+    NGI:
+        code: NGI
+        name: NAGARI
+        lat: "20.4068833"
+        lng: "78.8896869"
+    NITR:
+        code: NITR
+        name: NETAJI SUBHASH
+        lat: "21.1580435"
+        lng: "79.1176408"
+    NKOT:
+        code: NKOT
+        name: New Kota (Dakaniya Talav)
+        lat: "25.1446576"
+        lng: "75.8611134"
+    NLPI:
+        code: NLPI
+        name: Nemalipuri
+        lat: "16.4256957"
+        lng: "79.9309521"
+    NMKL:
+        code: NMKL
+        name: NAMAKKAL
+        lat: "11.2260"
+        lng: "78.1768"
+    NOR:
+        code: NOR
+        name: NEORA NADDI
+        lat: "26.7426278"
+        lng: "88.7460363"
+    NRWN:
+        code: NRWN
+        name: NANGAL RAJAWATAN
+        lat: "26.7417019"
+        lng: "76.3280459"
+    NSGR:
+        code: NSGR
+        name: NARASINGHGARH
+        lat: "20.8191532"
+        lng: "83.7824909"
+    OHV:
+        code: OHV
+        name: ODHAVA
+        lat: "24.2523821"
+        lng: "72.0282694"
+    OKD:
+        code: OKD
+        name: Okha Madhi
+        lat: "22.095506"
+        lng: "69.1018951"
+    PAHB:
+        code: PAHB
+        name: PURA HALT
+        lat: "24.8147982"
+        lng: "85.2469775"
+    PAIL:
+        code: PAIL
+        name: PALI A
+        lat: "25.5572093"
+        lng: "84.8135772"
+    PAKI:
+        code: PAKI
+        name: PAWAKHALI
+        lat: "26.3371589"
+        lng: "87.9481934"
+    PBC:
+        code: PBC
+        name: PARVATSAR CITY
+        lat: "26.8886784"
+        lng: "74.7625489"
+    PDWA:
+        code: PDWA
+        name: PINDWARA
+        lat: "24.7886901"
+        lng: "73.0371538"
+    PMPE:
+        code: PMPE
+        name: PAMPORA
+        lat: "33.9986098"
+        lng: "74.8948479"
+    PNPI:
+        code: PNPI
+        name: PURUNAPANI
+        lat: "20.8064759"
+        lng: "83.9481614"
+    PNTR:
+        code: PNTR
+        name: PENNATHUR H
+        lat: "12.8375669"
+        lng: "79.1272527"
+    PPLA:
+        code: PPLA
+        name: PIPLAI
+        lat: "26.5287607"
+        lng: "76.5277454"
+    PRBR:
+        code: PRBR
+        name: PARSA BASUARI HALT
+        lat: "26.2940344"
+        lng: "86.5117735"
+    PTRA:
+        code: PTRA
+        name: PATRA
+        lat: "26.4813711"
+        lng: "79.9583083"
+    PUKK:
+        code: PUKK
+        name: PURUNAKATAK
+        lat: "20.6272839"
+        lng: "84.4333673"
+    PUKS:
+        code: PUKS
+        name: Paru Khas
+        lat: "26.081462"
+        lng: "85.0537521"
+    PUNA:
+        code: PUNA
+        name: PAUNIA
+        lat: "21.7274967"
+        lng: "79.7514354"
+    RASP:
+        code: RASP
+        name: RASIPURAM
+        lat: "11.4535997"
+        lng: "78.1782914"
+    RD:
+        code: RD
+        name: RAM DAYALU NAGAR
+        lat: "26.0976539"
+        lng: "85.3841908"
+    RDBR:
+        code: RDBR
+        name: RANDIA BAUDPUR
+        lat: "21.0628355"
+        lng: "86.4626834"
+    RDHR:
+        code: RDHR
+        name: RIDDHAPUR
+        lat: "21.2380362"
+        lng: "77.814576"
+    REAI:
+        code: REAI
+        name: REASI
+        lat: "33.1079332"
+        lng: "74.8446468"
+    RGBP:
+        code: RGBP
+        name: RANI GAIDINLIU
+        lat: "24.7421304"
+        lng: "93.2347448"
+    RHMP:
+        code: RHMP
+        name: RAHAMATPUR
+        lat: "26.1514345"
+        lng: "87.4403044"
+    RIM:
+        code: RIM
+        name: Rajim
+        lat: "20.9698112"
+        lng: "81.8685521"
+    RJIN:
+        code: RJIN
+        name: Rajuri
+        lat: "18.9949037"
+        lng: "75.6460716"
+    RJJN:
+        code: RJJN
+        name: RAJAJAN HALT
+        lat: "25.6145722"
+        lng: "85.6703657"
+    RJLA:
+        code: RJLA
+        name: RAJLA
+        lat: "24.7560385"
+        lng: "86.4214333"
+    RMOA:
+        code: RMOA
+        name: Raimoha
+        lat: "18.9877197"
+        lng: "75.4904189"
+    RMPR:
+        code: RMPR
+        name: RAMPUR  HALT
+        lat: "25.1714457"
+        lng: "86.135526"
+    RPAP:
+        code: RPAP
+        name: RATNIPORA HALT
+        lat: "33.9277251"
+        lng: "74.9570558"
+    RPCA:
+        code: RPCA
+        name: Rompicharla
+        lat: "16.2307854"
+        lng: "79.8878616"
+    SACH:
+        code: SACH
+        name: SUCHITRA CENTRE HALT
+        lat: "17.4890785"
+        lng: "78.4733863"
+    SANG:
+        code: SANG
+        name: SAIRANG
+        lat: "23.7978"
+        lng: "92.6460"
+    SAPD:
+        code: SAPD
+        name: SANAPADAR PASSENGER HALT (PH)
+        lat: "20.1737394"
+        lng: "85.3850912"
+    SARY:
+        code: SARY
+        name: Saraiya Halt
+        lat: "25.7743889"
+        lng: "83.7477548"
+    SBTJ:
+        code: SBTJ
+        name: SHANIDEV DHAM BISHNATHGANJ
+        lat: "25.8012076"
+        lng: "81.9338334"
+    SGDN:
+        code: SGDN
+        name: SANGALDAN
+        lat: "33.244906"
+        lng: "75.0870808"
+    SGNL:
+        code: SGNL
+        name: SANGANAL
+        lat: "15.5626462"
+        lng: "75.9799364"
+    SIDG:
+        code: SIDG
+        name: SIDDAPUR
+        lat: "15.5230299"
+        lng: "76.6354391"
+    SION:
+        code: SION
+        name: SION
+        lat: "19.0465101"
+        lng: "72.8583906"
+    SJHG:
+        code: SJHG
+        name: SHAHEED JITENDRA HALT GOPALPUR
+        lat: "25.02174"
+        lng: "86.2013367"
+    SKHV:
+        code: SKHV
+        name: SUKHOVI
+        lat: "25.759892"
+        lng: "93.7114778"
+    SMAP:
+        code: SMAP
+        name: SHAMNAPUR
+        lat: "18.1090953"
+        lng: "78.3230679"
+    SMBR:
+        code: SMBR
+        name: SUMBAR
+        lat: "33.2956859"
+        lng: "75.105861"
+    SMVB:
+        code: SMVB
+        name: SMVT BENGALURU
+        lat: "13.0006"
+        lng: "77.6392"
+    SMVJ:
+        code: SMVJ
+        name: SHRI MAHAVEERJI
+        lat: "26.6848"
+        lng: "76.9657"
+    SNNR:
+        code: SNNR
+        name: SINDHANUR
+        lat: "15.748782"
+        lng: "76.7652324"
+    SNPU:
+        code: SNPU
+        name: SONEPUR
+        lat: "20.8484995"
+        lng: "83.8960479"
+    SNTR:
+        code: SNTR
+        name: SHANTINAGAR HALT
+        lat: "23.2932749"
+        lng: "88.6376774"
+    SPAK:
+        code: SPAK
+        name: SALEMPUR ARNIYA KHURD
+        lat: "26.6473488"
+        lng: "76.3115347"
+    SPBK:
+        code: SPBK
+        name: SUNDERPUR (BARAH KALAN)
+        lat: "29.3267682"
+        lng: "76.4203543"
+    SRNM:
+        code: SRNM
+        name: SRIRAMNAGAR H
+        lat: "15.4921885"
+        lng: "76.6164404"
+    SSKI:
+        code: SSKI
+        name: SARSOKI
+        lat: "26.0129376"
+        lng: "79.5277993"
+    SSNT:
+        code: SSNT
+        name: SIRSA NUNTHAR HALT
+        lat: "24.4724727"
+        lng: "86.8245982"
+    SUBL:
+        code: SUBL
+        name: Hubli South
+        lat: "15.3332585"
+        lng: "75.1728522"
+    SWDV:
+        code: SWDV
+        name: Seawoods - Darave
+        lat: "19.0219794"
+        lng: "73.0167384"
+    TDE:
+        code: TDE
+        name: THUDIYALUR
+        lat: "11.0824763"
+        lng: "76.9482224"
+    TGBP:
+        code: TGBP
+        name: THINGOU
+        lat: "24.8106931"
+        lng: "93.4062048"
+    TGCH:
+        code: TGCH
+        name: Terhagachh
+        lat: "26.3777595"
+        lng: "87.6830805"
+    TGLN:
+        code: TGLN
+        name: TARADGAON
+        lat: "18.0381635"
+        lng: "74.2374716"
+    TKMG:
+        code: TKMG
+        name: TIKAMGARH
+        lat: "24.7667"
+        lng: "78.8378"
+    TKV:
+        code: TKV
+        name: TEKANWAS
+        lat: "25.8077044"
+        lng: "84.6844619"
+    TLB:
+        code: TLB
+        name: TALWA BAZAR
+        lat: "24.6949711"
+        lng: "86.5569831"
+    TLKL:
+        code: TLKL
+        name: TALAKAL
+        lat: "15.3970069"
+        lng: "75.9932535"
+    TLSI:
+        code: TLSI
+        name: Tulsia
+        lat: "26.3609638"
+        lng: "87.8567775"
+    TMHA:
+        code: TMHA
+        name: THUMHA
+        lat: "26.1589136"
+        lng: "86.7332017"
+    TNJR:
+        code: TNJR
+        name: TAJNAGAR
+        lat: "28.3856411"
+        lng: "76.8232194"
+    TOY:
+        code: TOY
+        name: TOPPUTURAI
+        lat: "10.39566"
+        lng: "79.8462991"
+    TRBI:
+        code: TRBI
+        name: TARABOI PASSENGER HALT
+        lat: "20.1409502"
+        lng: "85.6443628"
+    TVCN:
+        code: TVCN
+        name: THIRUVANANTHAPURAM NORTH
+        lat: "8.5101"
+        lng: "76.8969"
+    TVCS:
+        code: TVCS
+        name: THIRUVANANTHAPURAM SOUTH
+        lat: "8.4535305"
+        lng: "77.0102779"
+    UDKL:
+        code: UDKL
+        name: UDAI KALAN
+        lat: "26.515489"
+        lng: "76.716021"
+    UKLR:
+        code: UKLR
+        name: UKILERHAT HALT
+        lat: "21.8245869"
+        lng: "88.230397"
+    UPRD:
+        code: UPRD
+        name: USMANPUR DEHAT HALT
+        lat: "29.548404"
+        lng: "77.377019"
+    URGR:
+        code: URGR
+        name: URGR
+        lat: "20.6369899"
+        lng: "86.2019091"
+    VLNK:
+        code: VLNK
+        name: VELLANKANNI
+        lat: "10.6869138"
+        lng: "79.8461843"
+    VNTD:
+        code: VNTD
+        name: VANTADA
+        lat: "23.613101"
+        lng: "73.0777342"
+    VNWI:
+        code: VNWI
+        name: VIGHANWADI
+        lat: "19.01998"
+        lng: "75.4554454"
+    VSH:
+        code: VSH
+        name: Vashi
+        lat: "19.0601599"
+        lng: "72.9737976"
+    VSHI:
+        code: VSHI
+        name: VAISHALI
+        lat: "25.9687255"
+        lng: "85.1386478"
+    VSR:
+        code: VSR
+        name: VASUNDHARA
+        lat: "27.4872325"
+        lng: "78.5326376"
+    WTWI:
+        code: WTWI
+        name: WETALWADI
+        lat: "18.8919257"
+        lng: "75.1868048"
+    YLBA:
+        code: YLBA
+        name: YELBURGA
+        lat: "15.6092755"
+        lng: "76.0273588"
+overrides:
+    API:
+        code: API
+        name: AKKARAIPPATTI
+        lat: "10.3998405"
+        lng: "77.9201125"
+    APMR:
+        code: APMR
+        name: APPAIPALLI
+        lat: "17.8562323"
+        lng: "78.569765"
+    ATWN:
+        code: ATWN
+        name: ASTHWAN
+        lat: "25.2314261"
+        lng: "85.6320668"
+    BABH:
+        code: BABH
+        name: BAHALBA HALT
+        lat: "28.909861"
+        lng: "76.263056"
+    BARA:
+        code: BARA
+        name: BARA
+        lat: "23.9953808"
+        lng: "81.1749476"
+    BHID:
+        code: BHID
+        name: BHIDI
+        lat: "20.5734543"
+        lng: "78.4147286"
+    BNLY:
+        code: BNLY
+        name: BHANUPLI
+        lat: "31.2989762"
+        lng: "76.4178355"
+    BRBG:
+        code: BRBG
+        name: BARBIGHA
+        lat: "25.220427"
+        lng: "85.7466496"
+    CIKR:
+        code: CIKR
+        name: CHANDIKHOLE ROAD
+        lat: "20.7072165"
+        lng: "86.146221"
+    DDDA:
+        code: DDDA
+        name: DUDDEDA
+        lat: "18.0219057"
+        lng: "78.8913132"
+    FLCK:
+        code: FLCK
+        name: FAZALCHAK
+        lat: "25.436443"
+        lng: "85.1617221"
+    GSPU:
+        code: GSPU
+        name: GAUSPUR HALT
+        lat: "25.4297284"
+        lng: "85.1924874"
+    HGY:
+        code: HGY
+        name: HOOGHLY GHAT
+        lat: "22.9040817"
+        lng: "88.3887523"
+    HNH:
+        code: HNH
+        name: HANUMANAHALLI
+        lat: "14.358791"
+        lng: "75.9959701"
+    HPUR:
+        code: HPUR
+        name: HABASPUR
+        lat: "23.1209805"
+        lng: "88.0039459"
+    JBJC:
+        code: JBJC
+        name: JAMUNA BLOCK HUT JUNCTION
+        lat: "20.1292193"
+        lng: "85.6842029"
+    KAC:
+        code: KAC
+        name: KASAP
+        lat: "25.4746233"
+        lng: "84.6014238"
+    KDKL:
+        code: KDKL
+        name: KODAKANDLA
+        lat: "17.8775034"
+        lng: "78.7502745"
+    KEU:
+        code: KEU
+        name: KETTUR
+        lat: "18.2896477"
+        lng: "74.9504524"
+    KLGA:
+        code: KLGA
+        name: KALAGAR
+        lat: "20.3805897"
+        lng: "86.51025"
+    KNC:
+        code: KNC
+        name: KANCHANPUR ROAD
+        lat: "24.0407429"
+        lng: "81.6425322"
+    KRKH:
+        code: KRKH
+        name: KHARKARA HALT
+        lat: "28.9139119"
+        lng: "76.3763136"
+    KZPR:
+        code: KZPR
+        name: KAZIPARA
+        lat: "22.7229014"
+        lng: "88.5054801"
+    LKDM:
+        code: LKDM
+        name: LAKHUDARAM
+        lat: "17.909445"
+        lng: "78.8230512"
+    LLTG:
+        code: LLTG
+        name: LALITAGIRI
+        lat: "20.5920798"
+        lng: "86.2690756"
+    RTRA:
+        code: RTRA
+        name: NEW RAMNATH PUR
+        lat: "24.231469"
+        lng: "92.526989"
+    SIJU:
+        code: SIJU
+        name: SIJU
+        lat: "20.294301"
+        lng: "86.59026"
+    SKBR:
+        code: SKBR
+        name: SHANKARPUR BHADAURA
+        lat: "24.1038064"
+        lng: "81.8668425"
+    SRBH:
+        code: SRBH
+        name: SHAHID RAMPHAL
+        lat: "28.89515"
+        lng: "76.4653351"
+    SRJR:
+        code: SRJR
+        name: SARSA JARNALPUR
+        lat: "25.1843637"
+        lng: "85.7805522"
+    TDOK:
+        code: TDOK
+        name: TADOKI
+        lat: "19.9591233"
+        lng: "81.1225374"
+    TIGJ:
+        code: TIGJ
+        name: TRIVENIGANJ
+        lat: "26.1229541"
+        lng: "86.8796372"
+    TPSA:
+        code: TPSA
+        name: TOP SARTHUA
+        lat: "25.4212147"
+        lng: "85.2451351"
+ignoredTrains:
+    - "07717"
+    - "07787"
+    - "07788"
+    - "08185"
+    - "08261"
+    - "55514"

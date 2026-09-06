@@ -1,0 +1,189 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "12:35",
+            "STD": "07:55",
+            "classOfTravel": "",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "SLRD",
+                    "coachID": "SLRD",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 12
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 13
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 14
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 15
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 16
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 17
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 18
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 19
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 20
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 21
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 22
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 23
+                },
+                {
+                    "coachClass": "SLRD",
+                    "coachID": "SLRD",
+                    "positionFromEngine": 24
+                }
+            ],
+            "daysOfRunFromSource": "DAILY",
+            "daysOfRunFromSourceNumeric": "1111111",
+            "destination": "SPJ",
+            "destinationDayCount": 1,
+            "destinationName": "SAMASTIPUR JN",
+            "destinationNameHindi": "समस्तीपुर जं.",
+            "destinationPF": "1",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {},
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 809414,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "ECR",
+            "pantryType": "",
+            "prsClassOfTravel": "",
+            "prsTrainFlag": 0,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "JYG",
+            "sourceName": "JAYNAGAR",
+            "sourceNameHindi": "जयनगर",
+            "sourcePF": "3",
+            "totalDistance": 105,
+            "trainName": "JYG-SPJ PASSENGER",
+            "trainNameHindi": "जयनगर समस्तीपुर पैसेन्जर",
+            "trainNo": "55514",
+            "trainSubType": "PAS",
+            "trainSubTypeName": "PASSENGER",
+            "trainSubTypeNameHindi": "",
+            "trainType": "PAS",
+            "trainTypeName": "PASSENGER",
+            "trainTypeNameHindi": "पैसेंजर",
+            "travelTime": "04:40",
+            "utsClassOfTravel": "",
+            "utsFareCategory": "O",
+            "utsFareCategoryDesc": "ORDINARY",
+            "utsMstAllowed": 1,
+            "utsTrainFlag": 1,
+            "vTrainServiceSchedulePTT": [],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "01-Sep-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

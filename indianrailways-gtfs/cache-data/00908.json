@@ -1,0 +1,365 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "18:45",
+            "STD": "19:30",
+            "classOfTravel": "GEN,PWD",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 12
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 13
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 14
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 15
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 16
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 17
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 18
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 19
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 20
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 21
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 22
+                },
+                {
+                    "coachClass": "VP",
+                    "coachID": "VP",
+                    "positionFromEngine": 23
+                },
+                {
+                    "coachClass": "SLRD",
+                    "coachID": "SLRD",
+                    "positionFromEngine": 24
+                }
+            ],
+            "daysOfRunFromSource": "Wed",
+            "daysOfRunFromSourceNumeric": "0010000",
+            "destination": "KKF",
+            "destinationDayCount": 3,
+            "destinationName": "",
+            "destinationNameHindi": "",
+            "destinationPF": "",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "ANND": "4",
+                "KGP": "1",
+                "KKF": "5",
+                "SGTY": "0",
+                "TATA": "2",
+                "UDN": "3"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 812420,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "WR",
+            "pantryType": "",
+            "prsClassOfTravel": "",
+            "prsTrainFlag": 0,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "SGTY",
+            "sourceName": "SANKRAIL GOODS TERMINAL",
+            "sourceNameHindi": "सांकरेल गुड्स टर्मिनल\u003cbr/\u003e",
+            "sourcePF": "",
+            "totalDistance": 2073,
+            "trainName": "SGTY -KKF PARCEL TRAIN",
+            "trainNameHindi": "सन्करेल गुडस ट्रमिनल कान्करिया कारगो",
+            "trainNo": "00908",
+            "trainSubType": "RPCG",
+            "trainSubTypeName": "RAPID CARGO",
+            "trainSubTypeNameHindi": "",
+            "trainType": "PEXP",
+            "trainTypeName": "PARCEL EXPRESS",
+            "trainTypeNameHindi": "पार्सल एक्सप्रेस",
+            "travelTime": "47:15",
+            "utsClassOfTravel": "GEN,PWD",
+            "utsFareCategory": "",
+            "utsFareCategoryDesc": "",
+            "utsMstAllowed": 0,
+            "utsTrainFlag": 0,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "KGP",
+                    "idTrainDef": 812420,
+                    "lattitude": "22.572963",
+                    "longitude": "88.221588",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "WED",
+                    "pttDaysOfDeparture": "WED",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "19:30",
+                    "pttDepartureTimeInSecond": 70200,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "SGTY",
+                    "stationName": "SANKRAIL GOODS TERMINAL",
+                    "stationNameHindi": "सांकरेल गुड्स टर्मिनल\u003cbr/\u003e",
+                    "zone": "SER"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 100,
+                    "division": "KGP",
+                    "idTrainDef": 812420,
+                    "lattitude": "22.341582",
+                    "longitude": "87.328606",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "20:40",
+                    "pttArrivalTimeInSecond": 74400,
+                    "pttDaysOfArrival": "WED",
+                    "pttDaysOfDeparture": "WED",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "21:00",
+                    "pttDepartureTimeInSecond": 75600,
+                    "pttStopTime": 1200,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 28,
+                    "station": "KGP",
+                    "stationName": "KHARAGPUR JN",
+                    "stationNameHindi": "खड़गपुर जं.",
+                    "zone": "SER"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 234,
+                    "division": "CKP",
+                    "idTrainDef": 812420,
+                    "lattitude": "22.768584",
+                    "longitude": "86.200190",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "00:30",
+                    "pttArrivalTimeInSecond": 88200,
+                    "pttDaysOfArrival": "THU",
+                    "pttDaysOfDeparture": "THU",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "01:10",
+                    "pttDepartureTimeInSecond": 90600,
+                    "pttStopTime": 2400,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 3,
+                    "srNoWTT": 48,
+                    "station": "TATA",
+                    "stationName": "TATANAGAR JN",
+                    "stationNameHindi": "टाटानगर जं.",
+                    "zone": "SER"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 1839,
+                    "division": "BCT",
+                    "idTrainDef": 812420,
+                    "lattitude": "21.170766",
+                    "longitude": "72.851071",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 3,
+                    "pttArrivalTimeHHMM": "09:00",
+                    "pttArrivalTimeInSecond": 205200,
+                    "pttDaysOfArrival": "FRI",
+                    "pttDaysOfDeparture": "FRI",
+                    "pttDepartureDayCount": 3,
+                    "pttDepartureTimeHHMM": "13:45",
+                    "pttDepartureTimeInSecond": 222300,
+                    "pttStopTime": 17100,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 4,
+                    "srNoWTT": 278,
+                    "station": "UDN",
+                    "stationName": "UDHNA JN",
+                    "stationNameHindi": "उधना जं.",
+                    "zone": "WR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 2007,
+                    "division": "BRC",
+                    "idTrainDef": 812420,
+                    "lattitude": "22.561700",
+                    "longitude": "72.966200",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 3,
+                    "pttArrivalTimeHHMM": "16:54",
+                    "pttArrivalTimeInSecond": 233640,
+                    "pttDaysOfArrival": "FRI",
+                    "pttDaysOfDeparture": "FRI",
+                    "pttDepartureDayCount": 3,
+                    "pttDepartureTimeHHMM": "17:14",
+                    "pttDepartureTimeInSecond": 234840,
+                    "pttStopTime": 1200,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 5,
+                    "srNoWTT": 311,
+                    "station": "ANND",
+                    "stationName": "ANAND JN",
+                    "stationNameHindi": "आणंद जं.",
+                    "zone": "WR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 2074,
+                    "division": "",
+                    "idTrainDef": 812420,
+                    "lattitude": "",
+                    "longitude": "",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 3,
+                    "pttArrivalTimeHHMM": "18:45",
+                    "pttArrivalTimeInSecond": 240300,
+                    "pttDaysOfArrival": "FRI",
+                    "pttDaysOfDeparture": "FRI",
+                    "pttDepartureDayCount": 3,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 6,
+                    "srNoWTT": 324,
+                    "station": "KKF",
+                    "stationName": "",
+                    "stationNameHindi": "",
+                    "zone": ""
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "01-Oct-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

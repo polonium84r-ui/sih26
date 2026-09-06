@@ -1,0 +1,234 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "18:00",
+            "STD": "00:10",
+            "classOfTravel": "GEN",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 12
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 13
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 14
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 15
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 16
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 17
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 18
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 19
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 20
+                },
+                {
+                    "coachClass": "SLR",
+                    "coachID": "SLR",
+                    "positionFromEngine": 21
+                }
+            ],
+            "daysOfRunFromSource": "Mon,Sun",
+            "daysOfRunFromSourceNumeric": "1000001",
+            "destination": "PTNR",
+            "destinationDayCount": 2,
+            "destinationName": "PATELNAGAR",
+            "destinationNameHindi": "पटेल नगर",
+            "destinationPF": "",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "CP": "0",
+                "PTNR": "1"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 804350,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "NR",
+            "pantryType": "",
+            "prsClassOfTravel": "",
+            "prsTrainFlag": 0,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "CP",
+            "sourceName": "CHITPUR",
+            "sourceNameHindi": "कोलकाता",
+            "sourcePF": "",
+            "totalDistance": 1458,
+            "trainName": "CP-PTNR VP SPL",
+            "trainNameHindi": "वी पी स्पेसल",
+            "trainNo": "00441",
+            "trainSubType": "RPCG",
+            "trainSubTypeName": "RAPID CARGO",
+            "trainSubTypeNameHindi": "",
+            "trainType": "PEXP",
+            "trainTypeName": "PARCEL EXPRESS",
+            "trainTypeNameHindi": "पार्सल एक्सप्रेस",
+            "travelTime": "41:50",
+            "utsClassOfTravel": "GEN",
+            "utsFareCategory": "",
+            "utsFareCategoryDesc": "",
+            "utsMstAllowed": 0,
+            "utsTrainFlag": 0,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "SDAH",
+                    "idTrainDef": 804350,
+                    "lattitude": "22.566563",
+                    "longitude": "88.374968",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "MON,SUN",
+                    "pttDaysOfDeparture": "MON,SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "00:10",
+                    "pttDepartureTimeInSecond": 600,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "CP",
+                    "stationName": "CHITPUR",
+                    "stationNameHindi": "कोलकाता",
+                    "zone": "ER"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 1458,
+                    "division": "DLI",
+                    "idTrainDef": 804350,
+                    "lattitude": "28.659977",
+                    "longitude": "77.156425",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "18:00",
+                    "pttArrivalTimeInSecond": 151200,
+                    "pttDaysOfArrival": "MON,TUE",
+                    "pttDaysOfDeparture": "MON,TUE",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 261,
+                    "station": "PTNR",
+                    "stationName": "PATELNAGAR",
+                    "stationNameHindi": "पटेल नगर",
+                    "zone": "NR"
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "08-Jun-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

@@ -1,0 +1,218 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "01:50",
+            "STD": "23:10",
+            "classOfTravel": "",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 12
+                }
+            ],
+            "daysOfRunFromSource": "DAILY",
+            "daysOfRunFromSourceNumeric": "1111111",
+            "destination": "ANND",
+            "destinationDayCount": 2,
+            "destinationName": "ANAND JN",
+            "destinationNameHindi": "आनंद जान।",
+            "destinationPF": "2",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "ANND": "2",
+                "ND": "1",
+                "VTA": "0"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 794332,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "WR",
+            "pantryType": "",
+            "prsClassOfTravel": "",
+            "prsTrainFlag": 0,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "VTA",
+            "sourceName": "VATVA",
+            "sourceNameHindi": "वटवा",
+            "sourcePF": "1",
+            "totalDistance": 56,
+            "trainName": "VTA - ANND MEMU",
+            "trainNameHindi": "वटवा आनन्द मेमु",
+            "trainNo": "69116",
+            "trainSubType": "MEMU",
+            "trainSubTypeName": "MEMU",
+            "trainSubTypeNameHindi": "",
+            "trainType": "MEMU",
+            "trainTypeName": "MEMU",
+            "trainTypeNameHindi": "मेमू",
+            "travelTime": "02:40",
+            "utsClassOfTravel": "",
+            "utsFareCategory": "O",
+            "utsFareCategoryDesc": "ORDINARY",
+            "utsMstAllowed": 1,
+            "utsTrainFlag": 1,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "ADI",
+                    "idTrainDef": 794332,
+                    "lattitude": "22.957643",
+                    "longitude": "72.629972",
+                    "pfNumber": "2",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "23:10",
+                    "pttDepartureTimeInSecond": 83400,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "VTA",
+                    "stationName": "VATVA",
+                    "stationNameHindi": "वटवा",
+                    "zone": "WR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 38,
+                    "division": "BRC",
+                    "idTrainDef": 794332,
+                    "lattitude": "22.694500",
+                    "longitude": "72.856100",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "00:58",
+                    "pttArrivalTimeInSecond": 89880,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "00:59",
+                    "pttDepartureTimeInSecond": 89940,
+                    "pttStopTime": 60,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 8,
+                    "station": "ND",
+                    "stationName": "NADIAD JN",
+                    "stationNameHindi": "नाडियाड जान।",
+                    "zone": "WR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 56,
+                    "division": "BRC",
+                    "idTrainDef": 794332,
+                    "lattitude": "22.561700",
+                    "longitude": "72.966200",
+                    "pfNumber": "2",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "01:50",
+                    "pttArrivalTimeInSecond": 93000,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 3,
+                    "srNoWTT": 11,
+                    "station": "ANND",
+                    "stationName": "ANAND JN",
+                    "stationNameHindi": "आनंद जान।",
+                    "zone": "WR"
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "23-Jan-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

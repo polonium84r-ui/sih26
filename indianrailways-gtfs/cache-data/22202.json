@@ -1,0 +1,267 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "04:05",
+            "STD": "19:45",
+            "classOfTravel": "1A,2A,3A,SL",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "LPR",
+                    "coachID": "LPR ",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "2A",
+                    "coachID": "A1",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B4",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B3",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B2",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B1",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "1A",
+                    "coachID": "H1",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "PC",
+                    "coachID": "PC",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S7",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S6",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S5",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S4",
+                    "positionFromEngine": 12
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S3",
+                    "positionFromEngine": 13
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S2",
+                    "positionFromEngine": 14
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S1",
+                    "positionFromEngine": 15
+                },
+                {
+                    "coachClass": "SLRD",
+                    "coachID": "SLRD",
+                    "positionFromEngine": 16
+                }
+            ],
+            "daysOfRunFromSource": "Tue,Thu,Sat",
+            "daysOfRunFromSourceNumeric": "0101010",
+            "destination": "SDAH",
+            "destinationDayCount": 2,
+            "destinationName": "SEALDAH",
+            "destinationNameHindi": "सियालदह",
+            "destinationPF": "12",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "BBS": "1",
+                "KGP": "2",
+                "PURI": "0",
+                "SDAH": "3"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 789093,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "ER",
+            "pantryType": "PC",
+            "prsClassOfTravel": "1A,2A,3A,SL",
+            "prsTrainFlag": 1,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "PURI",
+            "sourceName": "PURI",
+            "sourceNameHindi": "पुरी",
+            "sourcePF": "2",
+            "totalDistance": 550,
+            "trainName": "DURONTO EXPRESS                              ",
+            "trainNameHindi": "पुरि सियल्दहा दुरन्तो इएक्सप्रेस्स्",
+            "trainNo": "22202",
+            "trainSubType": "DRNT",
+            "trainSubTypeName": "DURONTO EXPRESS",
+            "trainSubTypeNameHindi": "",
+            "trainType": "DRNT",
+            "trainTypeName": "DURONTO EXPRESS",
+            "trainTypeNameHindi": "दूरंतो एक्सप्रेस",
+            "travelTime": "08:20",
+            "utsClassOfTravel": "",
+            "utsFareCategory": "",
+            "utsFareCategoryDesc": "",
+            "utsMstAllowed": 0,
+            "utsTrainFlag": 0,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "KUR",
+                    "idTrainDef": 789093,
+                    "lattitude": "19.811769",
+                    "longitude": "85.840302",
+                    "pfNumber": "2",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "TUE,THU,SAT",
+                    "pttDaysOfDeparture": "TUE,THU,SAT",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "19:45",
+                    "pttDepartureTimeInSecond": 71100,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "PURI",
+                    "stationName": "PURI",
+                    "stationNameHindi": "पुरी",
+                    "zone": "ECOR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 63,
+                    "division": "KUR",
+                    "idTrainDef": 789093,
+                    "lattitude": "20.265498",
+                    "longitude": "85.842705",
+                    "pfNumber": "3",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "20:25",
+                    "pttArrivalTimeInSecond": 73500,
+                    "pttDaysOfArrival": "TUE,THU,SAT",
+                    "pttDaysOfDeparture": "TUE,THU,SAT",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "20:30",
+                    "pttDepartureTimeInSecond": 73800,
+                    "pttStopTime": 300,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 14,
+                    "station": "BBS",
+                    "stationName": "BHUBANESWAR",
+                    "stationNameHindi": "भुवनेश्वर",
+                    "zone": "ECOR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 408,
+                    "division": "KGP",
+                    "idTrainDef": 789093,
+                    "lattitude": "22.341582",
+                    "longitude": "87.328606",
+                    "pfNumber": "7",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "01:00",
+                    "pttArrivalTimeInSecond": 90000,
+                    "pttDaysOfArrival": "WED,FRI,SUN",
+                    "pttDaysOfDeparture": "WED,FRI,SUN",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "01:05",
+                    "pttDepartureTimeInSecond": 90300,
+                    "pttStopTime": 300,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 3,
+                    "srNoWTT": 75,
+                    "station": "KGP",
+                    "stationName": "KHARAGPUR JN",
+                    "stationNameHindi": "खड़गपुर जं.",
+                    "zone": "SER"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 551,
+                    "division": "SDAH",
+                    "idTrainDef": 789093,
+                    "lattitude": "22.567098",
+                    "longitude": "88.375053",
+                    "pfNumber": "12",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "04:05",
+                    "pttArrivalTimeInSecond": 101100,
+                    "pttDaysOfArrival": "WED,FRI,SUN",
+                    "pttDaysOfDeparture": "WED,FRI,SUN",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 4,
+                    "srNoWTT": 117,
+                    "station": "SDAH",
+                    "stationName": "SEALDAH",
+                    "stationNameHindi": "सियालदह",
+                    "zone": ""
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "01-Jan-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

@@ -1,0 +1,263 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "01:10",
+            "STD": "00:10",
+            "classOfTravel": "GEN",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "SLR",
+                    "coachID": "GRD",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 12
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 13
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 14
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 15
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 16
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 17
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 18
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 19
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 20
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 21
+                }
+            ],
+            "daysOfRunFromSource": "Sun",
+            "daysOfRunFromSourceNumeric": "0000001",
+            "destination": "TKD",
+            "destinationDayCount": 3,
+            "destinationName": "TUGLAKABAD",
+            "destinationNameHindi": "तुगलकाबाद",
+            "destinationPF": "",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "MLY": "1",
+                "TKD": "2",
+                "YPR": "0"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 800486,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "SWR",
+            "pantryType": "",
+            "prsClassOfTravel": "",
+            "prsTrainFlag": 0,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "YPR",
+            "sourceName": "YASVANTPUR JN",
+            "sourceNameHindi": "यशवंतपुर जं.",
+            "sourcePF": "",
+            "totalDistance": 2337,
+            "trainName": "YPR-TKD ICOD JPP RCS",
+            "trainNameHindi": "येस्वन्तपुर आय् सि ओ डि जे पि पि",
+            "trainNo": "00639",
+            "trainSubType": "MISC",
+            "trainSubTypeName": "PARCEL MISCELLANEOUS",
+            "trainSubTypeNameHindi": "",
+            "trainType": "PEXP",
+            "trainTypeName": "PARCEL EXPRESS",
+            "trainTypeNameHindi": "पार्सल एक्सप्रेस",
+            "travelTime": "49:00",
+            "utsClassOfTravel": "GEN",
+            "utsFareCategory": "",
+            "utsFareCategoryDesc": "",
+            "utsMstAllowed": 0,
+            "utsTrainFlag": 0,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "SBC",
+                    "idTrainDef": 800486,
+                    "lattitude": "13.023039",
+                    "longitude": "77.551374",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "SUN",
+                    "pttDaysOfDeparture": "SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "00:10",
+                    "pttDepartureTimeInSecond": 600,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "YPR",
+                    "stationName": "YESVANTPUR JN.",
+                    "stationNameHindi": "यशवंतपुर जं.",
+                    "zone": "SWR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 692,
+                    "division": "SC",
+                    "idTrainDef": 800486,
+                    "lattitude": "17.440500",
+                    "longitude": "78.550700",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "14:30",
+                    "pttArrivalTimeInSecond": 52200,
+                    "pttDaysOfArrival": "SUN",
+                    "pttDaysOfDeparture": "SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "17:30",
+                    "pttDepartureTimeInSecond": 63000,
+                    "pttStopTime": 10800,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 98,
+                    "station": "MLY",
+                    "stationName": "MAULA ALI",
+                    "stationNameHindi": "मौला अली",
+                    "zone": "SCR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 2337,
+                    "division": "DLI",
+                    "idTrainDef": 800486,
+                    "lattitude": "28.512143",
+                    "longitude": "77.294226",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 3,
+                    "pttArrivalTimeHHMM": "01:10",
+                    "pttArrivalTimeInSecond": 177000,
+                    "pttDaysOfArrival": "TUE",
+                    "pttDaysOfDeparture": "TUE",
+                    "pttDepartureDayCount": 3,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 3,
+                    "srNoWTT": 303,
+                    "station": "TKD",
+                    "stationName": "TUGLAKABAD",
+                    "stationNameHindi": "तुगलकाबाद",
+                    "zone": "NR"
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "23-Mar-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

@@ -1,0 +1,263 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "22:20",
+            "STD": "19:30",
+            "classOfTravel": "",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "LPR",
+                    "coachID": "GRD",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 12
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 13
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 14
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 15
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 16
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 17
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 18
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 19
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 20
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 21
+                }
+            ],
+            "daysOfRunFromSource": "Tue",
+            "daysOfRunFromSourceNumeric": "0100000",
+            "destination": "AJNI",
+            "destinationDayCount": 2,
+            "destinationName": "AJNI",
+            "destinationNameHindi": "अजनी",
+            "destinationPF": "3",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "AJNI": "2",
+                "BSP": "1",
+                "SGTY": "0"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 806672,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "CR",
+            "pantryType": "",
+            "prsClassOfTravel": "",
+            "prsTrainFlag": 0,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "SGTY",
+            "sourceName": "SANKRAIL GOODS TERMINAL",
+            "sourceNameHindi": "सांकरेल गुड्स टर्मिनल\u003cbr/\u003e",
+            "sourcePF": "",
+            "totalDistance": 1118,
+            "trainName": "SGTY-AJNI RAPID PARCEL",
+            "trainNameHindi": "अजनि रेपिड पार्सेल",
+            "trainNo": "00112",
+            "trainSubType": "RPCG",
+            "trainSubTypeName": "RAPID CARGO",
+            "trainSubTypeNameHindi": "",
+            "trainType": "PEXP",
+            "trainTypeName": "PARCEL EXPRESS",
+            "trainTypeNameHindi": "पार्सल एक्सप्रेस",
+            "travelTime": "26:50",
+            "utsClassOfTravel": "",
+            "utsFareCategory": "E",
+            "utsFareCategoryDesc": "MAIL EXPRESS",
+            "utsMstAllowed": 0,
+            "utsTrainFlag": 1,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "KGP",
+                    "idTrainDef": 806672,
+                    "lattitude": "22.572963",
+                    "longitude": "88.221588",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "TUE",
+                    "pttDaysOfDeparture": "TUE",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "19:30",
+                    "pttDepartureTimeInSecond": 70200,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "SGTY",
+                    "stationName": "SANKRAIL GOODS TERMINAL",
+                    "stationNameHindi": "सांकरेल गुड्स टर्मिनल\u003cbr/\u003e",
+                    "zone": "SER"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 704,
+                    "division": "BSP",
+                    "idTrainDef": 806672,
+                    "lattitude": "22.057323",
+                    "longitude": "82.167435",
+                    "pfNumber": "3",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "11:00",
+                    "pttArrivalTimeInSecond": 126000,
+                    "pttDaysOfArrival": "WED",
+                    "pttDaysOfDeparture": "WED",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "11:10",
+                    "pttDepartureTimeInSecond": 126600,
+                    "pttStopTime": 600,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 120,
+                    "station": "BSP",
+                    "stationName": "BILASPUR JN.",
+                    "stationNameHindi": "बिलासपुर जं.",
+                    "zone": "SECR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 1118,
+                    "division": "NGP",
+                    "idTrainDef": 806672,
+                    "lattitude": "21.115810",
+                    "longitude": "79.078646",
+                    "pfNumber": "3",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "22:20",
+                    "pttArrivalTimeInSecond": 166800,
+                    "pttDaysOfArrival": "WED",
+                    "pttDaysOfDeparture": "WED",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 3,
+                    "srNoWTT": 187,
+                    "station": "AJNI",
+                    "stationName": "AJNI",
+                    "stationNameHindi": "अजनी",
+                    "zone": "CR"
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "22-Jul-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

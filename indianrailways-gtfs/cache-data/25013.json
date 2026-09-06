@@ -1,0 +1,325 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "04:15",
+            "STD": "02:32",
+            "classOfTravel": "3A,SL,2S",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "SL",
+                    "coachID": "S2",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "SLRD",
+                    "coachID": "GRD",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "2A+3A",
+                    "coachID": "AB1",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D1",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D2",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S1",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B1",
+                    "positionFromEngine": 7
+                }
+            ],
+            "daysOfRunFromSource": "DAILY",
+            "daysOfRunFromSourceNumeric": "1111111",
+            "destination": "RMR",
+            "destinationDayCount": 1,
+            "destinationName": "RAMNAGAR",
+            "destinationNameHindi": "RAMNAGAR",
+            "destinationPF": "1",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {
+                "ALJ": 8,
+                "GOT": 2,
+                "GWS": 10,
+                "JLQ": 5,
+                "KGF": 1,
+                "KPV": 9,
+                "MB": 0,
+                "PAQ": 7,
+                "PLS": 4,
+                "PRM": 11,
+                "RHN": 6,
+                "RMR": 12,
+                "SEW": 3
+            },
+            "hashMapStationMultiList": {
+                "KPV": "1",
+                "MB": "0",
+                "RMR": "2"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 786633,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "15013",
+            "owningRly": "NER",
+            "pantryType": "",
+            "prsClassOfTravel": "3A,SL",
+            "prsTrainFlag": 1,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 2,
+            "slipTrainNo": "25013",
+            "slipType": "B",
+            "source": "MB",
+            "sourceName": "MORADABAD",
+            "sourceNameHindi": "मुरादाबाद जान।",
+            "sourcePF": "4",
+            "totalDistance": 76,
+            "trainName": "CORBETT PARK LINK EXP",
+            "trainNameHindi": "जिम कार्वेट पार्क लिन्क एक्सप्रेसा",
+            "trainNo": "25013",
+            "trainSubType": "MEX",
+            "trainSubTypeName": "MAIL EXPRESS",
+            "trainSubTypeNameHindi": "",
+            "trainType": "MEX",
+            "trainTypeName": "MAIL EXPRESS",
+            "trainTypeNameHindi": "मेल एक्सप्रेस",
+            "travelTime": "01:43",
+            "utsClassOfTravel": "2S",
+            "utsFareCategory": "E",
+            "utsFareCategoryDesc": "MAIL EXPRESS",
+            "utsMstAllowed": 1,
+            "utsTrainFlag": 1,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "MB",
+                    "idTrainDef": 786633,
+                    "lattitude": "28.831400",
+                    "longitude": "78.765600",
+                    "pfNumber": "3",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "02:32",
+                    "pttDepartureTimeInSecond": 9120,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "MB",
+                    "stationName": "MORADABAD",
+                    "stationNameHindi": "मुरादाबाद",
+                    "zone": "NR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 49,
+                    "division": "IZN",
+                    "idTrainDef": 786633,
+                    "lattitude": "29.205068",
+                    "longitude": "78.960800",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "03:25",
+                    "pttArrivalTimeInSecond": 12300,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "03:30",
+                    "pttDepartureTimeInSecond": 12600,
+                    "pttStopTime": 300,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 10,
+                    "station": "KPV",
+                    "stationName": "KASHIPUR",
+                    "stationNameHindi": "KASHIPUR",
+                    "zone": "NER"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 76,
+                    "division": "IZN",
+                    "idTrainDef": 786633,
+                    "lattitude": "29.389803",
+                    "longitude": "79.121819",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "04:15",
+                    "pttArrivalTimeInSecond": 15300,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 3,
+                    "srNoWTT": 13,
+                    "station": "RMR",
+                    "stationName": "RAMNAGAR",
+                    "stationNameHindi": "RAMNAGAR",
+                    "zone": "NER"
+                }
+            ],
+            "vTrainServiceScheduleWTT": [
+                {
+                    "WTT_STA": "",
+                    "WTT_STD": "02:32",
+                    "kms": 0,
+                    "lattitude": "28.831400",
+                    "longitude": "78.765600",
+                    "serialNumber": 1,
+                    "station": "MB"
+                },
+                {
+                    "WTT_STA": "02:50",
+                    "WTT_STD": "02:50",
+                    "kms": 4,
+                    "lattitude": "28.825700",
+                    "longitude": "78.796300",
+                    "serialNumber": 2,
+                    "station": "KGF"
+                },
+                {
+                    "WTT_STA": "02:57",
+                    "WTT_STD": "02:57",
+                    "kms": 6,
+                    "lattitude": "28.871400",
+                    "longitude": "78.823400",
+                    "serialNumber": 3,
+                    "station": "GOT"
+                },
+                {
+                    "WTT_STA": "03:01",
+                    "WTT_STD": "03:01",
+                    "kms": 12,
+                    "lattitude": "28.918100",
+                    "longitude": "78.822200",
+                    "serialNumber": 4,
+                    "station": "SEW"
+                },
+                {
+                    "WTT_STA": "03:05",
+                    "WTT_STD": "03:05",
+                    "kms": 18,
+                    "lattitude": "28.952000",
+                    "longitude": "78.835200",
+                    "serialNumber": 5,
+                    "station": "PLS"
+                },
+                {
+                    "WTT_STA": "03:08",
+                    "WTT_STD": "03:08",
+                    "kms": 24,
+                    "lattitude": "29.012300",
+                    "longitude": "78.870300",
+                    "serialNumber": 6,
+                    "station": "JLQ"
+                },
+                {
+                    "WTT_STA": "03:12",
+                    "WTT_STD": "03:12",
+                    "kms": 28,
+                    "lattitude": "29.047000",
+                    "longitude": "78.888100",
+                    "serialNumber": 7,
+                    "station": "RHN"
+                },
+                {
+                    "WTT_STA": "03:15",
+                    "WTT_STD": "03:15",
+                    "kms": 33,
+                    "lattitude": "29.086300",
+                    "longitude": "78.908100",
+                    "serialNumber": 8,
+                    "station": "PAQ"
+                },
+                {
+                    "WTT_STA": "03:19",
+                    "WTT_STD": "03:19",
+                    "kms": 38,
+                    "lattitude": "",
+                    "longitude": "",
+                    "serialNumber": 9,
+                    "station": "ALJ"
+                },
+                {
+                    "WTT_STA": "03:30",
+                    "WTT_STD": "03:35",
+                    "kms": 49,
+                    "lattitude": "29.205068",
+                    "longitude": "78.960800",
+                    "serialNumber": 10,
+                    "station": "KPV"
+                },
+                {
+                    "WTT_STA": "03:44",
+                    "WTT_STD": "03:44",
+                    "kms": 61,
+                    "lattitude": "29.298300",
+                    "longitude": "79.009500",
+                    "serialNumber": 11,
+                    "station": "GWS"
+                },
+                {
+                    "WTT_STA": "03:54",
+                    "WTT_STD": "03:54",
+                    "kms": 68,
+                    "lattitude": "29.327500",
+                    "longitude": "79.045900",
+                    "serialNumber": 12,
+                    "station": "PRM"
+                },
+                {
+                    "WTT_STA": "04:15",
+                    "WTT_STD": "",
+                    "kms": 76,
+                    "lattitude": "29.389803",
+                    "longitude": "79.121819",
+                    "serialNumber": 13,
+                    "station": "RMR"
+                }
+            ],
+            "validFrom": "01-Jan-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

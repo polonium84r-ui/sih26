@@ -1,0 +1,292 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "14:00",
+            "STD": "11:30",
+            "classOfTravel": "",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "CC",
+                    "coachID": "C1",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D1",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D2",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D3",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D4",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D5",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D6",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D7",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D8",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D9",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D10",
+                    "positionFromEngine": 12
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D11",
+                    "positionFromEngine": 13
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D12",
+                    "positionFromEngine": 14
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D13",
+                    "positionFromEngine": 15
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D14",
+                    "positionFromEngine": 16
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D15",
+                    "positionFromEngine": 17
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D16",
+                    "positionFromEngine": 18
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D17",
+                    "positionFromEngine": 19
+                },
+                {
+                    "coachClass": "2S",
+                    "coachID": "D18",
+                    "positionFromEngine": 20
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 21
+                }
+            ],
+            "daysOfRunFromSource": "DAILY",
+            "daysOfRunFromSourceNumeric": "1111111",
+            "destination": "SBC",
+            "destinationDayCount": 1,
+            "destinationName": "KSR BENGALURU",
+            "destinationNameHindi": "KSR BENGALURU",
+            "destinationPF": "9",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "KGI": "2",
+                "MYA": "1",
+                "MYS": "0",
+                "SBC": "3"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 786544,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "SWR",
+            "pantryType": "",
+            "prsClassOfTravel": "",
+            "prsTrainFlag": 1,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "MYS",
+            "sourceName": "MYSORE JN",
+            "sourceNameHindi": "मैसूर जान।",
+            "sourcePF": "1",
+            "totalDistance": 138,
+            "trainName": "WODEYAR SF EXP                                 ",
+            "trainNameHindi": "मैसुरु-बेन्गलुरु वडेयर् एक्सप्रेस्",
+            "trainNo": "12613",
+            "trainSubType": "SUF",
+            "trainSubTypeName": "SUPERFAST",
+            "trainSubTypeNameHindi": "",
+            "trainType": "SUF",
+            "trainTypeName": "SUPERFAST",
+            "trainTypeNameHindi": "सुपरफास्ट",
+            "travelTime": "02:30",
+            "utsClassOfTravel": "",
+            "utsFareCategory": "S",
+            "utsFareCategoryDesc": "SUPERFAST",
+            "utsMstAllowed": 1,
+            "utsTrainFlag": 1,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "MYS",
+                    "idTrainDef": 786544,
+                    "lattitude": "12.318500",
+                    "longitude": "76.645600",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "11:30",
+                    "pttDepartureTimeInSecond": 41400,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "MYS",
+                    "stationName": "MYSORE JN",
+                    "stationNameHindi": "मैसूर जं.",
+                    "zone": "SWR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 45,
+                    "division": "SBC",
+                    "idTrainDef": 786544,
+                    "lattitude": "12.529100",
+                    "longitude": "76.897200",
+                    "pfNumber": "2",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "12:09",
+                    "pttArrivalTimeInSecond": 43740,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "12:10",
+                    "pttDepartureTimeInSecond": 43800,
+                    "pttStopTime": 60,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 8,
+                    "station": "MYA",
+                    "stationName": "MANDYA",
+                    "stationNameHindi": "मांड्या",
+                    "zone": "SWR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 126,
+                    "division": "SBC",
+                    "idTrainDef": 786544,
+                    "lattitude": "12.917700",
+                    "longitude": "77.484000",
+                    "pfNumber": "3",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "13:09",
+                    "pttArrivalTimeInSecond": 47340,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "13:10",
+                    "pttDepartureTimeInSecond": 47400,
+                    "pttStopTime": 60,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 3,
+                    "srNoWTT": 18,
+                    "station": "KGI",
+                    "stationName": "KENGERI",
+                    "stationNameHindi": "केंगेरी",
+                    "zone": "SWR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 138,
+                    "division": "SBC",
+                    "idTrainDef": 786544,
+                    "lattitude": "12.977795",
+                    "longitude": "77.568283",
+                    "pfNumber": "9",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "14:00",
+                    "pttArrivalTimeInSecond": 50400,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 4,
+                    "srNoWTT": 22,
+                    "station": "SBC",
+                    "stationName": "KSR BENGALURU",
+                    "stationNameHindi": "KSR BENGALURU",
+                    "zone": "SWR"
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "01-Jan-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

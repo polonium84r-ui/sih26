@@ -1,0 +1,297 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "08:55",
+            "STD": "07:50",
+            "classOfTravel": "2A,3A,SL,GEN",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "SLR",
+                    "coachID": "GRD",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "1A+2A",
+                    "coachID": "HA1",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "2A",
+                    "coachID": "A1",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B1",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B2",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S1",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S2",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S3",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S4",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S5",
+                    "positionFromEngine": 12
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S6",
+                    "positionFromEngine": 13
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S7",
+                    "positionFromEngine": 14
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S8",
+                    "positionFromEngine": 15
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S9",
+                    "positionFromEngine": 16
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S10",
+                    "positionFromEngine": 17
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S11",
+                    "positionFromEngine": 18
+                },
+                {
+                    "coachClass": "SL",
+                    "coachID": "S12",
+                    "positionFromEngine": 19
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 20
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 21
+                },
+                {
+                    "coachClass": "SLRD",
+                    "coachID": "GRD",
+                    "positionFromEngine": 22
+                }
+            ],
+            "daysOfRunFromSource": "DAILY",
+            "daysOfRunFromSourceNumeric": "1111111",
+            "destination": "CBE",
+            "destinationDayCount": 1,
+            "destinationName": "COIMBATORE JN",
+            "destinationNameHindi": "कोयंबटूर जं.",
+            "destinationPF": "6",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "CBE": "3",
+                "CNV": "1",
+                "POY": "0",
+                "PTJ": "2"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 803438,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "SR",
+            "pantryType": "",
+            "prsClassOfTravel": "2A,3A,SL",
+            "prsTrainFlag": 0,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "POY",
+            "sourceName": "POLLACHI JN.",
+            "sourceNameHindi": "पोल्लाच्चि जंक्शन",
+            "sourcePF": "1",
+            "totalDistance": 45,
+            "trainName": "POY-CBE PASSENGER",
+            "trainNameHindi": "पोय् स्बे इएक्सप्",
+            "trainNo": "56110",
+            "trainSubType": "PAS",
+            "trainSubTypeName": "PASSENGER",
+            "trainSubTypeNameHindi": "",
+            "trainType": "PAS",
+            "trainTypeName": "PASSENGER",
+            "trainTypeNameHindi": "पैसेंजर",
+            "travelTime": "01:05",
+            "utsClassOfTravel": "GEN",
+            "utsFareCategory": "O",
+            "utsFareCategoryDesc": "ORDINARY",
+            "utsMstAllowed": 1,
+            "utsTrainFlag": 1,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "PGT",
+                    "idTrainDef": 803438,
+                    "lattitude": "10.652679",
+                    "longitude": "77.000942",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "07:50",
+                    "pttDepartureTimeInSecond": 28200,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "POY",
+                    "stationName": "POLLACHI JN.",
+                    "stationNameHindi": "पोल्लाच्चि जंक्शन",
+                    "zone": "SR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 21,
+                    "division": "PGT",
+                    "idTrainDef": 803438,
+                    "lattitude": "10.813500",
+                    "longitude": "77.023700",
+                    "pfNumber": "2",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "08:13",
+                    "pttArrivalTimeInSecond": 29580,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "08:14",
+                    "pttDepartureTimeInSecond": 29640,
+                    "pttStopTime": 60,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 2,
+                    "station": "CNV",
+                    "stationName": "KINATTUKKADAVU",
+                    "stationNameHindi": "किनातुक्कडुवु",
+                    "zone": "SR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 40,
+                    "division": "SA",
+                    "idTrainDef": 803438,
+                    "lattitude": "10.964900",
+                    "longitude": "76.989600",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "08:36",
+                    "pttArrivalTimeInSecond": 30960,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "08:37",
+                    "pttDepartureTimeInSecond": 31020,
+                    "pttStopTime": 60,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 3,
+                    "srNoWTT": 3,
+                    "station": "PTJ",
+                    "stationName": "PODANUR JN",
+                    "stationNameHindi": "पोदनूर जं.",
+                    "zone": "SR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 46,
+                    "division": "SA",
+                    "idTrainDef": 803438,
+                    "lattitude": "10.997479",
+                    "longitude": "76.966138",
+                    "pfNumber": "6",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "08:55",
+                    "pttArrivalTimeInSecond": 32100,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 4,
+                    "srNoWTT": 4,
+                    "station": "CBE",
+                    "stationName": "COIMBATORE JN",
+                    "stationNameHindi": "कोयंबटूर जं.",
+                    "zone": "SR"
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "11-Jul-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

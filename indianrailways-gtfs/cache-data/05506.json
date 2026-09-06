@@ -1,0 +1,316 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "15:30",
+            "STD": "13:20",
+            "classOfTravel": "",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "LPR",
+                    "coachID": "LPR",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M18",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M17",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M16",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M15",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M14",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M13",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M12",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M11",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M10",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M9",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M8",
+                    "positionFromEngine": 12
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M7",
+                    "positionFromEngine": 13
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M6",
+                    "positionFromEngine": 14
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M5",
+                    "positionFromEngine": 15
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M4",
+                    "positionFromEngine": 16
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M3",
+                    "positionFromEngine": 17
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M2",
+                    "positionFromEngine": 18
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M1",
+                    "positionFromEngine": 19
+                },
+                {
+                    "coachClass": "LPR",
+                    "coachID": "LPR",
+                    "positionFromEngine": 20
+                }
+            ],
+            "daysOfRunFromSource": "Mon,Tue,Fri,Sun",
+            "daysOfRunFromSourceNumeric": "1100101",
+            "destination": "PRNC",
+            "destinationDayCount": 1,
+            "destinationName": "PURNIA COURT",
+            "destinationNameHindi": "पूर्णिया कोर्ट",
+            "destinationPF": "",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "BNKI": "3",
+                "DMH": "1",
+                "MRIJ": "2",
+                "PRNC": "4",
+                "SHC": "0"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 810804,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "ECR",
+            "pantryType": "",
+            "prsClassOfTravel": "",
+            "prsTrainFlag": 1,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "SHC",
+            "sourceName": "SAHARSA JN",
+            "sourceNameHindi": "सहरसा जं.",
+            "sourcePF": "",
+            "totalDistance": 94,
+            "trainName": "SHC PRNC SPL                                  ",
+            "trainNameHindi": "स्पेशल",
+            "trainNo": "05506",
+            "trainSubType": "PUJA",
+            "trainSubTypeName": "POOJA SPECIAL",
+            "trainSubTypeNameHindi": "",
+            "trainType": "TOD",
+            "trainTypeName": "TRAIN ON DEMAND",
+            "trainTypeNameHindi": "मांग पर ट्रेन",
+            "travelTime": "02:10",
+            "utsClassOfTravel": "",
+            "utsFareCategory": "",
+            "utsFareCategoryDesc": "",
+            "utsMstAllowed": 0,
+            "utsTrainFlag": 0,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "SPJ",
+                    "idTrainDef": 810804,
+                    "lattitude": "25.874708",
+                    "longitude": "86.594453",
+                    "pfNumber": "2",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "MON,TUE,FRI,SUN",
+                    "pttDaysOfDeparture": "MON,TUE,FRI,SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "13:20",
+                    "pttDepartureTimeInSecond": 48000,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "SHC",
+                    "stationName": "SAHARSA JN",
+                    "stationNameHindi": "सहरसा जं.",
+                    "zone": "ECR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 22,
+                    "division": "SPJ",
+                    "idTrainDef": 810804,
+                    "lattitude": "25.908683",
+                    "longitude": "86.782808",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "13:45",
+                    "pttArrivalTimeInSecond": 49500,
+                    "pttDaysOfArrival": "MON,TUE,FRI,SUN",
+                    "pttDaysOfDeparture": "MON,TUE,FRI,SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "13:47",
+                    "pttDepartureTimeInSecond": 49620,
+                    "pttStopTime": 120,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 5,
+                    "station": "DMH",
+                    "stationName": "DAURAM MADHPURA",
+                    "stationNameHindi": "दौराम मधपुरा",
+                    "zone": "ECR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 44,
+                    "division": "SPJ",
+                    "idTrainDef": 810804,
+                    "lattitude": "25.888106",
+                    "longitude": "87.000046",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "14:12",
+                    "pttArrivalTimeInSecond": 51120,
+                    "pttDaysOfArrival": "MON,TUE,FRI,SUN",
+                    "pttDaysOfDeparture": "MON,TUE,FRI,SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "14:14",
+                    "pttDepartureTimeInSecond": 51240,
+                    "pttStopTime": 120,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 3,
+                    "srNoWTT": 9,
+                    "station": "MRIJ",
+                    "stationName": "MURLIGANJ",
+                    "stationNameHindi": "मुरलीगंज",
+                    "zone": "ECR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 64,
+                    "division": "SPJ",
+                    "idTrainDef": 810804,
+                    "lattitude": "25.885172",
+                    "longitude": "87.193744",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "14:40",
+                    "pttArrivalTimeInSecond": 52800,
+                    "pttDaysOfArrival": "MON,TUE,FRI,SUN",
+                    "pttDaysOfDeparture": "MON,TUE,FRI,SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "14:42",
+                    "pttDepartureTimeInSecond": 52920,
+                    "pttStopTime": 120,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 4,
+                    "srNoWTT": 13,
+                    "station": "BNKI",
+                    "stationName": "BANMANKHI JN.",
+                    "stationNameHindi": "बानमंखी जं.",
+                    "zone": "ECR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 95,
+                    "division": "SPJ",
+                    "idTrainDef": 810804,
+                    "lattitude": "25.795255",
+                    "longitude": "87.475033",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "15:30",
+                    "pttArrivalTimeInSecond": 55800,
+                    "pttDaysOfArrival": "MON,TUE,FRI,SUN",
+                    "pttDaysOfDeparture": "MON,TUE,FRI,SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 5,
+                    "srNoWTT": 17,
+                    "station": "PRNC",
+                    "stationName": "PURNIA COURT",
+                    "stationNameHindi": "पूर्णिया कोर्ट",
+                    "zone": "ECR"
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "16-Sep-2025",
+            "validTo": "15-Dec-2025"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

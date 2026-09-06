@@ -1,0 +1,349 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "07:24",
+            "STD": "06:48",
+            "classOfTravel": "GEN",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "GEN",
+                    "coachID": "GEN",
+                    "positionFromEngine": 12
+                }
+            ],
+            "daysOfRunFromSource": "DAILY",
+            "daysOfRunFromSourceNumeric": "1111111",
+            "destination": "BP",
+            "destinationDayCount": 1,
+            "destinationName": "BARRACKPORE",
+            "destinationNameHindi": "बैरकपोर",
+            "destinationPF": "1",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {
+                "AGP": 5,
+                "BLH": 4,
+                "BNXR": 2,
+                "BP": 9,
+                "DDJ": 3,
+                "KDH": 7,
+                "KGK": 1,
+                "SDAH": 0,
+                "SEP": 6,
+                "TGH": 8
+            },
+            "hashMapStationMultiList": {
+                "BLH": "1",
+                "BP": "3",
+                "SDAH": "0",
+                "SEP": "2"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 784930,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "ER",
+            "pantryType": "",
+            "prsClassOfTravel": "",
+            "prsTrainFlag": 0,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "SDAH",
+            "sourceName": "SEALDAH",
+            "sourceNameHindi": "SEALDAH",
+            "sourcePF": "3",
+            "totalDistance": 25,
+            "trainName": "SDAH-BP LOCAL",
+            "trainNameHindi": "सिल्दा बाराकपुर् लोकाल्",
+            "trainNo": "31213",
+            "trainSubType": "SUB",
+            "trainSubTypeName": "SUBURBAN",
+            "trainSubTypeNameHindi": "",
+            "trainType": "SUB",
+            "trainTypeName": "SUBURBAN",
+            "trainTypeNameHindi": "उपनगरीय",
+            "travelTime": "00:36",
+            "utsClassOfTravel": "GEN",
+            "utsFareCategory": "O",
+            "utsFareCategoryDesc": "ORDINARY",
+            "utsMstAllowed": 1,
+            "utsTrainFlag": 1,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "SDAH",
+                    "idTrainDef": 784930,
+                    "lattitude": "22.567098",
+                    "longitude": "88.375053",
+                    "pfNumber": "3",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "06:48",
+                    "pttDepartureTimeInSecond": 24480,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "SDAH",
+                    "stationName": "SEALDAH",
+                    "stationNameHindi": "SEALDAH",
+                    "zone": ""
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 14,
+                    "division": "SDAH",
+                    "idTrainDef": 784930,
+                    "lattitude": "22.661600",
+                    "longitude": "88.389200",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "07:03",
+                    "pttArrivalTimeInSecond": 25380,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "07:04",
+                    "pttDepartureTimeInSecond": 25440,
+                    "pttStopTime": 60,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 5,
+                    "station": "BLH",
+                    "stationName": "BELGHARIA",
+                    "stationNameHindi": "बेलघरिया",
+                    "zone": "ER"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 19,
+                    "division": "SDAH",
+                    "idTrainDef": 784930,
+                    "lattitude": "22.698900",
+                    "longitude": "88.382200",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "07:08",
+                    "pttArrivalTimeInSecond": 25680,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "07:09",
+                    "pttDepartureTimeInSecond": 25740,
+                    "pttStopTime": 60,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 3,
+                    "srNoWTT": 7,
+                    "station": "SEP",
+                    "stationName": "SODPUR",
+                    "stationNameHindi": "सोदपुर",
+                    "zone": "ER"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 25,
+                    "division": "SDAH",
+                    "idTrainDef": 784930,
+                    "lattitude": "22.760700",
+                    "longitude": "88.371100",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "07:24",
+                    "pttArrivalTimeInSecond": 26640,
+                    "pttDaysOfArrival": "DAILY",
+                    "pttDaysOfDeparture": "DAILY",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 4,
+                    "srNoWTT": 10,
+                    "station": "BP",
+                    "stationName": "BARRACKPORE",
+                    "stationNameHindi": "बैरकपोर",
+                    "zone": "ER"
+                }
+            ],
+            "vTrainServiceScheduleWTT": [
+                {
+                    "WTT_STA": "",
+                    "WTT_STD": "06:48",
+                    "kms": 0,
+                    "lattitude": "22.567098",
+                    "longitude": "88.375053",
+                    "serialNumber": 1,
+                    "station": "SDAH"
+                },
+                {
+                    "WTT_STA": "06:53",
+                    "WTT_STD": "06:53",
+                    "kms": 5,
+                    "lattitude": "22.572963",
+                    "longitude": "88.385439",
+                    "serialNumber": 2,
+                    "station": "KGK"
+                },
+                {
+                    "WTT_STA": "06:54",
+                    "WTT_STD": "06:54",
+                    "kms": 7,
+                    "lattitude": "22.592000",
+                    "longitude": "88.390600",
+                    "serialNumber": 3,
+                    "station": "BNXR"
+                },
+                {
+                    "WTT_STA": "06:59",
+                    "WTT_STD": "06:59",
+                    "kms": 10,
+                    "lattitude": "22.621600",
+                    "longitude": "88.392700",
+                    "serialNumber": 4,
+                    "station": "DDJ"
+                },
+                {
+                    "WTT_STA": "07:03",
+                    "WTT_STD": "07:04",
+                    "kms": 14,
+                    "lattitude": "22.661600",
+                    "longitude": "88.389200",
+                    "serialNumber": 5,
+                    "station": "BLH"
+                },
+                {
+                    "WTT_STA": "07:06",
+                    "WTT_STD": "07:06",
+                    "kms": 17,
+                    "lattitude": "22.682900",
+                    "longitude": "88.385100",
+                    "serialNumber": 6,
+                    "station": "AGP"
+                },
+                {
+                    "WTT_STA": "07:08",
+                    "WTT_STD": "07:09",
+                    "kms": 19,
+                    "lattitude": "22.698900",
+                    "longitude": "88.382200",
+                    "serialNumber": 7,
+                    "station": "SEP"
+                },
+                {
+                    "WTT_STA": "07:11",
+                    "WTT_STD": "07:11",
+                    "kms": 21,
+                    "lattitude": "22.725300",
+                    "longitude": "88.377400",
+                    "serialNumber": 8,
+                    "station": "KDH"
+                },
+                {
+                    "WTT_STA": "07:14",
+                    "WTT_STD": "07:14",
+                    "kms": 23,
+                    "lattitude": "22.741900",
+                    "longitude": "88.374300",
+                    "serialNumber": 9,
+                    "station": "TGH"
+                },
+                {
+                    "WTT_STA": "07:24",
+                    "WTT_STD": "",
+                    "kms": 25,
+                    "lattitude": "22.760700",
+                    "longitude": "88.371100",
+                    "serialNumber": 10,
+                    "station": "BP"
+                }
+            ],
+            "validFrom": "01-Jan-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

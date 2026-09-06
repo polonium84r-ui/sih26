@@ -1,0 +1,301 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "15:50",
+            "STD": "23:10",
+            "classOfTravel": "",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "LPR",
+                    "coachID": "LPR",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "1A",
+                    "coachID": "H1",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "2A",
+                    "coachID": "A1",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "2A",
+                    "coachID": "A2",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "2A",
+                    "coachID": "A3",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M1",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M2",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M3",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "3E",
+                    "coachID": "M4",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "PC",
+                    "coachID": "PC",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B1",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B2",
+                    "positionFromEngine": 12
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B3",
+                    "positionFromEngine": 13
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B4",
+                    "positionFromEngine": 14
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B5",
+                    "positionFromEngine": 15
+                },
+                {
+                    "coachClass": "3A",
+                    "coachID": "B6",
+                    "positionFromEngine": 16
+                },
+                {
+                    "coachClass": "SLRD",
+                    "coachID": "SLRD",
+                    "positionFromEngine": 17
+                }
+            ],
+            "daysOfRunFromSource": "Mon,Fri",
+            "daysOfRunFromSourceNumeric": "1000100",
+            "destination": "NZM",
+            "destinationDayCount": 2,
+            "destinationName": "HAZRAT NIZAMUDDIN JN",
+            "destinationNameHindi": "हजरत निजामुद्दीन",
+            "destinationPF": "8",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "BRC": "1",
+                "KOTA": "3",
+                "MMCT": "0",
+                "NZM": "4",
+                "RTM": "2"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 812815,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "WR",
+            "pantryType": "",
+            "prsClassOfTravel": "",
+            "prsTrainFlag": 1,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "MMCT",
+            "sourceName": "MUMBAI CENTRAL",
+            "sourceNameHindi": "मुम्बई सेन्ट्रल",
+            "sourcePF": "2",
+            "totalDistance": 1372,
+            "trainName": "NZM DURONTO                                   ",
+            "trainNameHindi": "मुम्बई निज्जामुदिन दुरन्तो",
+            "trainNo": "22209",
+            "trainSubType": "DRNT",
+            "trainSubTypeName": "DURONTO EXPRESS",
+            "trainSubTypeNameHindi": "",
+            "trainType": "DRNT",
+            "trainTypeName": "DURONTO EXPRESS",
+            "trainTypeNameHindi": "दूरंतो एक्सप्रेस",
+            "travelTime": "16:40",
+            "utsClassOfTravel": "",
+            "utsFareCategory": "",
+            "utsFareCategoryDesc": "",
+            "utsMstAllowed": 0,
+            "utsTrainFlag": 0,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "BCT",
+                    "idTrainDef": 812815,
+                    "lattitude": "18.970727",
+                    "longitude": "72.819443",
+                    "pfNumber": "2",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "MON,FRI",
+                    "pttDaysOfDeparture": "MON,FRI",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "23:10",
+                    "pttDepartureTimeInSecond": 83400,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "MMCT",
+                    "stationName": "MUMBAI CENTRAL",
+                    "stationNameHindi": "मुम्बई सेन्ट्रल",
+                    "zone": "WR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 392,
+                    "division": "BRC",
+                    "idTrainDef": 812815,
+                    "lattitude": "22.310696",
+                    "longitude": "73.181005",
+                    "pfNumber": "2",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "03:26",
+                    "pttArrivalTimeInSecond": 98760,
+                    "pttDaysOfArrival": "TUE,SAT",
+                    "pttDaysOfDeparture": "TUE,SAT",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "03:36",
+                    "pttDepartureTimeInSecond": 99360,
+                    "pttStopTime": 600,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 83,
+                    "station": "BRC",
+                    "stationName": "VADODARA JN",
+                    "stationNameHindi": "वडोदरा जं.",
+                    "zone": "WR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 649,
+                    "division": "RTM",
+                    "idTrainDef": 812815,
+                    "lattitude": "23.340600",
+                    "longitude": "75.051100",
+                    "pfNumber": "5",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "07:00",
+                    "pttArrivalTimeInSecond": 111600,
+                    "pttDaysOfArrival": "TUE,SAT",
+                    "pttDaysOfDeparture": "TUE,SAT",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "07:05",
+                    "pttDepartureTimeInSecond": 111900,
+                    "pttStopTime": 300,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 3,
+                    "srNoWTT": 118,
+                    "station": "RTM",
+                    "stationName": "RATLAM JN",
+                    "stationNameHindi": "रतलाम जं.",
+                    "zone": "WR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 916,
+                    "division": "KOTA",
+                    "idTrainDef": 812815,
+                    "lattitude": "25.223733",
+                    "longitude": "75.880680",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "10:00",
+                    "pttArrivalTimeInSecond": 122400,
+                    "pttDaysOfArrival": "TUE,SAT",
+                    "pttDaysOfDeparture": "TUE,SAT",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "10:05",
+                    "pttDepartureTimeInSecond": 122700,
+                    "pttStopTime": 300,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 4,
+                    "srNoWTT": 148,
+                    "station": "KOTA",
+                    "stationName": "KOTA JN",
+                    "stationNameHindi": "कोटा जं.",
+                    "zone": "WCR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 1373,
+                    "division": "DLI",
+                    "idTrainDef": 812815,
+                    "lattitude": "28.587310",
+                    "longitude": "77.254229",
+                    "pfNumber": "8",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "15:50",
+                    "pttArrivalTimeInSecond": 143400,
+                    "pttDaysOfArrival": "TUE,SAT",
+                    "pttDaysOfDeparture": "TUE,SAT",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 5,
+                    "srNoWTT": 210,
+                    "station": "NZM",
+                    "stationName": "HAZRAT NIZAMUDDIN JN",
+                    "stationNameHindi": "हजरत निजामुद्दीन",
+                    "zone": ""
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "01-Oct-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

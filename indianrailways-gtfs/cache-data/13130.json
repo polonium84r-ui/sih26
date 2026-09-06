@@ -1,0 +1,179 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "18:10",
+            "STD": "16:20",
+            "classOfTravel": "1A",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "LPR",
+                    "coachID": "GRD",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "CC",
+                    "coachID": "C4",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "CC",
+                    "coachID": "C3",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "CC",
+                    "coachID": "C2",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "CC",
+                    "coachID": "C1",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "1A",
+                    "coachID": "H4",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "1A",
+                    "coachID": "H3",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "1A",
+                    "coachID": "H2",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "1A",
+                    "coachID": "H1",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "LPR",
+                    "coachID": "GRD",
+                    "positionFromEngine": 10
+                }
+            ],
+            "daysOfRunFromSource": "Thu,Sun",
+            "daysOfRunFromSourceNumeric": "0001001",
+            "destination": "KOAA",
+            "destinationDayCount": 1,
+            "destinationName": "KOLKATTA TERMINAL",
+            "destinationNameHindi": "कोलकाता",
+            "destinationPF": "1",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "KOAA": "1",
+                "PTPL": "0"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 789331,
+            "internationalTrainFlag": 1,
+            "mainTrainNo": "",
+            "owningRly": "ER",
+            "pantryType": "",
+            "prsClassOfTravel": "1A",
+            "prsTrainFlag": 1,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "PTPL",
+            "sourceName": "PETRAPOL",
+            "sourceNameHindi": "पेट्रापोल",
+            "sourcePF": "2",
+            "totalDistance": 78,
+            "trainName": "BANDHAN EXPRESS                              ",
+            "trainNameHindi": "खुलना कोलकाता बन्धन",
+            "trainNo": "13130",
+            "trainSubType": "MEX",
+            "trainSubTypeName": "MAIL EXPRESS",
+            "trainSubTypeNameHindi": "",
+            "trainType": "MEX",
+            "trainTypeName": "MAIL EXPRESS",
+            "trainTypeNameHindi": "मेल एक्सप्रेस",
+            "travelTime": "01:50",
+            "utsClassOfTravel": "",
+            "utsFareCategory": "E",
+            "utsFareCategoryDesc": "",
+            "utsMstAllowed": 0,
+            "utsTrainFlag": 1,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "SDAH",
+                    "idTrainDef": 789331,
+                    "lattitude": "23.036200",
+                    "longitude": "88.868400",
+                    "pfNumber": "2",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "THU,SUN",
+                    "pttDaysOfDeparture": "THU,SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "16:20",
+                    "pttDepartureTimeInSecond": 58800,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "PTPL",
+                    "stationName": "PETRAPOL",
+                    "stationNameHindi": "पेट्रापोल",
+                    "zone": "ER"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 79,
+                    "division": "SDAH",
+                    "idTrainDef": 789331,
+                    "lattitude": "22.601135",
+                    "longitude": "88.385139",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "18:10",
+                    "pttArrivalTimeInSecond": 65400,
+                    "pttDaysOfArrival": "THU,SUN",
+                    "pttDaysOfDeparture": "THU,SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 25,
+                    "station": "KOAA",
+                    "stationName": "KOLKATTA TERMINAL",
+                    "stationNameHindi": "कोलकाता",
+                    "zone": "ER"
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "01-Jan-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

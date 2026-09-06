@@ -1,0 +1,350 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "00:25",
+            "STD": "03:30",
+            "classOfTravel": "",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 10
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 11
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 12
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 13
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 14
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 15
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 16
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 17
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 18
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 19
+                },
+                {
+                    "coachClass": "OCV",
+                    "coachID": "OCV",
+                    "positionFromEngine": 20
+                },
+                {
+                    "coachClass": "SLR",
+                    "coachID": "GRD",
+                    "positionFromEngine": 21
+                }
+            ],
+            "daysOfRunFromSource": "Sun",
+            "daysOfRunFromSourceNumeric": "0000001",
+            "destination": "ST",
+            "destinationDayCount": 3,
+            "destinationName": "SURAT",
+            "destinationNameHindi": "सूरत",
+            "destinationPF": "4",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "BSB": "2",
+                "CHM": "3",
+                "MFP": "1",
+                "NRPA": "0",
+                "ST": "5",
+                "UDN": "4"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 810567,
+            "internationalTrainFlag": 0,
+            "mainTrainNo": "",
+            "owningRly": "WR",
+            "pantryType": "",
+            "prsClassOfTravel": "",
+            "prsTrainFlag": 0,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "NRPA",
+            "sourceName": "NARAYNPUR ANANT",
+            "sourceNameHindi": "नारायणपुर अनंत",
+            "sourcePF": "2",
+            "totalDistance": 1805,
+            "trainName": "NRPA-ST PARCEL SPL",
+            "trainNameHindi": "नारायनपुर अनन्त सुरत पार्सल स्पेसल",
+            "trainNo": "00902",
+            "trainSubType": "MISC",
+            "trainSubTypeName": "PARCEL MISCELLANEOUS",
+            "trainSubTypeNameHindi": "",
+            "trainType": "PEXP",
+            "trainTypeName": "PARCEL EXPRESS",
+            "trainTypeNameHindi": "पार्सल एक्सप्रेस",
+            "travelTime": "44:55",
+            "utsClassOfTravel": "",
+            "utsFareCategory": "",
+            "utsFareCategoryDesc": "",
+            "utsMstAllowed": 0,
+            "utsTrainFlag": 0,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "SPJ",
+                    "idTrainDef": 810567,
+                    "lattitude": "26.088932",
+                    "longitude": "85.409002",
+                    "pfNumber": "2",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "SUN",
+                    "pttDaysOfDeparture": "SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "03:30",
+                    "pttDepartureTimeInSecond": 12600,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "NRPA",
+                    "stationName": "NARAYNPUR ANANT",
+                    "stationNameHindi": "नारायणपुर अनंत",
+                    "zone": "ECR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 5,
+                    "division": "SPJ",
+                    "idTrainDef": 810567,
+                    "lattitude": "26.122151",
+                    "longitude": "85.377846",
+                    "pfNumber": "6",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "03:50",
+                    "pttArrivalTimeInSecond": 13800,
+                    "pttDaysOfArrival": "SUN",
+                    "pttDaysOfDeparture": "SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "03:55",
+                    "pttDepartureTimeInSecond": 14100,
+                    "pttStopTime": 300,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 2,
+                    "station": "MFP",
+                    "stationName": "MUZAFFARPUR JN",
+                    "stationNameHindi": "मुजफ्फरपुर जं.",
+                    "zone": "ECR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 405,
+                    "division": "LKO",
+                    "idTrainDef": 810567,
+                    "lattitude": "25.326901",
+                    "longitude": "82.986088",
+                    "pfNumber": "",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "16:30",
+                    "pttArrivalTimeInSecond": 59400,
+                    "pttDaysOfArrival": "SUN",
+                    "pttDaysOfDeparture": "SUN",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "16:40",
+                    "pttDepartureTimeInSecond": 60000,
+                    "pttStopTime": 600,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 3,
+                    "srNoWTT": 73,
+                    "station": "BSB",
+                    "stationName": "VARANASI",
+                    "stationNameHindi": "वाराणसी जं.",
+                    "zone": "NR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 1790,
+                    "division": "BCT",
+                    "idTrainDef": 810567,
+                    "lattitude": "21.158000",
+                    "longitude": "72.956300",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "22:55",
+                    "pttArrivalTimeInSecond": 168900,
+                    "pttDaysOfArrival": "MON",
+                    "pttDaysOfDeparture": "MON",
+                    "pttDepartureDayCount": 2,
+                    "pttDepartureTimeHHMM": "23:20",
+                    "pttDepartureTimeInSecond": 170400,
+                    "pttStopTime": 1500,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 4,
+                    "srNoWTT": 246,
+                    "station": "CHM",
+                    "stationName": "CHALTHAN",
+                    "stationNameHindi": "चालटन",
+                    "zone": "WR"
+                },
+                {
+                    "arrDepDayChangeFlag": 1,
+                    "distanceFromSource": 1801,
+                    "division": "BCT",
+                    "idTrainDef": 810567,
+                    "lattitude": "21.170766",
+                    "longitude": "72.851071",
+                    "pfNumber": "2",
+                    "pttArrivalDayCount": 2,
+                    "pttArrivalTimeHHMM": "23:40",
+                    "pttArrivalTimeInSecond": 171630,
+                    "pttDaysOfArrival": "MON",
+                    "pttDaysOfDeparture": "TUE",
+                    "pttDepartureDayCount": 3,
+                    "pttDepartureTimeHHMM": "00:10",
+                    "pttDepartureTimeInSecond": 173430,
+                    "pttStopTime": 1800,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 5,
+                    "srNoWTT": 248,
+                    "station": "UDN",
+                    "stationName": "UDHNA JN",
+                    "stationNameHindi": "उधना जं.",
+                    "zone": "WR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 1805,
+                    "division": "BCT",
+                    "idTrainDef": 810567,
+                    "lattitude": "21.206418",
+                    "longitude": "72.840643",
+                    "pfNumber": "4",
+                    "pttArrivalDayCount": 3,
+                    "pttArrivalTimeHHMM": "00:25",
+                    "pttArrivalTimeInSecond": 174300,
+                    "pttDaysOfArrival": "TUE",
+                    "pttDaysOfDeparture": "TUE",
+                    "pttDepartureDayCount": 3,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 6,
+                    "srNoWTT": 249,
+                    "station": "ST",
+                    "stationName": "SURAT",
+                    "stationNameHindi": "सूरत",
+                    "zone": ""
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "10-Sep-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

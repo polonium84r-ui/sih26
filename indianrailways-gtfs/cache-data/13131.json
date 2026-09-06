@@ -1,0 +1,179 @@
+{
+    "pd": {
+        "restServiceMessage": {
+            "serviceCallFlag": "Y",
+            "serviceDataFoundFlag": "Y",
+            "serviceDataResultFlag": "Y",
+            "serviceInputValidFlag": "Y",
+            "serviceMessage": "Data Found !!!"
+        },
+        "trainServiceProfile": {
+            "STA": "07:15",
+            "STD": "06:20",
+            "classOfTravel": "1A",
+            "coachPositionAtSource": [
+                {
+                    "coachClass": "LPR",
+                    "coachID": "LPR",
+                    "positionFromEngine": 1
+                },
+                {
+                    "coachClass": "CC",
+                    "coachID": "C4",
+                    "positionFromEngine": 2
+                },
+                {
+                    "coachClass": "CC",
+                    "coachID": "C3",
+                    "positionFromEngine": 3
+                },
+                {
+                    "coachClass": "CC",
+                    "coachID": "C2",
+                    "positionFromEngine": 4
+                },
+                {
+                    "coachClass": "CC",
+                    "coachID": "C1",
+                    "positionFromEngine": 5
+                },
+                {
+                    "coachClass": "1A",
+                    "coachID": "H4",
+                    "positionFromEngine": 6
+                },
+                {
+                    "coachClass": "1A",
+                    "coachID": "H3",
+                    "positionFromEngine": 7
+                },
+                {
+                    "coachClass": "1A",
+                    "coachID": "H2",
+                    "positionFromEngine": 8
+                },
+                {
+                    "coachClass": "1A",
+                    "coachID": "H1",
+                    "positionFromEngine": 9
+                },
+                {
+                    "coachClass": "LPR",
+                    "coachID": "LPR",
+                    "positionFromEngine": 10
+                }
+            ],
+            "daysOfRunFromSource": "Tue,Fri",
+            "daysOfRunFromSourceNumeric": "0100100",
+            "destination": "NJP",
+            "destinationDayCount": 1,
+            "destinationName": "NEW JALPAIGURI",
+            "destinationNameHindi": "NEW JALPAIGURI",
+            "destinationPF": "1",
+            "futureTrainFlag": 0,
+            "gauge": "BG",
+            "hashMapStationListWTT": {},
+            "hashMapStationMultiList": {
+                "HDB": "0",
+                "NJP": "1"
+            },
+            "heritageTrainFlag": 0,
+            "heritageTrainSection": "",
+            "idTrainDef": 789678,
+            "internationalTrainFlag": 1,
+            "mainTrainNo": "",
+            "owningRly": "NFR",
+            "pantryType": "",
+            "prsClassOfTravel": "1A",
+            "prsTrainFlag": 1,
+            "rakeReversalList": "",
+            "slipMainTrainFlag": 0,
+            "slipTrainNo": "",
+            "slipType": "",
+            "source": "HDB",
+            "sourceName": "HALDIBARI",
+            "sourceNameHindi": "HALDIBARI",
+            "sourcePF": "1",
+            "totalDistance": 56,
+            "trainName": "MITALI EXPRESS                                ",
+            "trainNameHindi": "मितलि इएक्सप्रेस्स्",
+            "trainNo": "13131",
+            "trainSubType": "MEX",
+            "trainSubTypeName": "MAIL EXPRESS",
+            "trainSubTypeNameHindi": "",
+            "trainType": "MEX",
+            "trainTypeName": "MAIL EXPRESS",
+            "trainTypeNameHindi": "मेल एक्सप्रेस",
+            "travelTime": "00:55",
+            "utsClassOfTravel": "",
+            "utsFareCategory": "E",
+            "utsFareCategoryDesc": "",
+            "utsMstAllowed": 0,
+            "utsTrainFlag": 1,
+            "vTrainServiceSchedulePTT": [
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 0,
+                    "division": "KIR",
+                    "idTrainDef": 789678,
+                    "lattitude": "26.335422",
+                    "longitude": "88.782406",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "",
+                    "pttArrivalTimeInSecond": 0,
+                    "pttDaysOfArrival": "TUE,FRI",
+                    "pttDaysOfDeparture": "TUE,FRI",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "06:20",
+                    "pttDepartureTimeInSecond": 22800,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 1,
+                    "srNoWTT": 1,
+                    "station": "HDB",
+                    "stationName": "HALDIBARI",
+                    "stationNameHindi": "HALDIBARI",
+                    "zone": "NFR"
+                },
+                {
+                    "arrDepDayChangeFlag": 0,
+                    "distanceFromSource": 57,
+                    "division": "KIR",
+                    "idTrainDef": 789678,
+                    "lattitude": "26.682665",
+                    "longitude": "88.443031",
+                    "pfNumber": "1",
+                    "pttArrivalDayCount": 1,
+                    "pttArrivalTimeHHMM": "07:15",
+                    "pttArrivalTimeInSecond": 26100,
+                    "pttDaysOfArrival": "TUE,FRI",
+                    "pttDaysOfDeparture": "TUE,FRI",
+                    "pttDepartureDayCount": 1,
+                    "pttDepartureTimeHHMM": "",
+                    "pttDepartureTimeInSecond": 0,
+                    "pttStopTime": 0,
+                    "pttStoppage": 1,
+                    "reversalNumber": 0,
+                    "samePttStopSeq": 1,
+                    "sameStationRepeatSeq": 1,
+                    "serialNumber": 2,
+                    "srNoWTT": 10,
+                    "station": "NJP",
+                    "stationName": "NEW JALPAIGURI",
+                    "stationNameHindi": "NEW JALPAIGURI",
+                    "zone": "NFR"
+                }
+            ],
+            "vTrainServiceScheduleWTT": null,
+            "validFrom": "01-Jan-2025",
+            "validTo": "31-Dec-2099"
+        }
+    },
+    "rc": "200",
+    "rd": "Success.",
+    "rs": "S"
+}

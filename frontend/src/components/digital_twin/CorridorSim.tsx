@@ -103,31 +103,27 @@ export const CorridorSim: React.FC<CorridorSimProps> = ({ trains, tasks }) => {
         </div>
 
         {/* Corridor Assets Status Row */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px', marginTop: '20px' }}>
-          <div style={{ background: 'var(--bg-card-secondary)', padding: '16px', borderRadius: '6px', border: '1px solid var(--border-color)' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <span style={{ fontSize: '0.7rem', color: 'var(--text-tertiary)', fontWeight: 700 }}>TRACK SECTION HEALTH</span>
-              <ShieldAlert size={16} color="var(--text-primary)" />
+        <div style={{ display: 'grid', gridTemplateColumns: tasks.length > 0 ? 'repeat(3, 1fr)' : '1fr', gap: '16px', marginTop: '20px' }}>
+          {tasks.length === 0 ? (
+            <div style={{ background: 'var(--bg-card-secondary)', padding: '20px', borderRadius: '6px', border: '1px solid var(--border-color)', textAlign: 'center' }}>
+              <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '8px' }}>
+                <CheckCircle2 size={24} color="#16a34a" />
+              </div>
+              <h4 style={{ color: 'var(--text-primary)', fontSize: '0.95rem', fontWeight: 800 }}>ALL CORRIDOR ASSETS OPERATIONAL</h4>
+              <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '4px' }}>No active defects reported across Trackbed, Signaling Point Machines, or Overhead Traction Catenary Wires.</p>
             </div>
-            <h4 style={{ color: 'var(--text-primary)', marginTop: '6px', fontSize: '0.9rem', fontWeight: 700 }}>TRK-125-001 (Rail Crack Defect)</h4>
-            <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px' }}>Assigned to Block B104 for repair.</p>
-          </div>
-          <div style={{ background: 'var(--bg-card-secondary)', padding: '16px', borderRadius: '6px', border: '1px solid var(--border-color)' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <span style={{ fontSize: '0.7rem', color: 'var(--text-tertiary)', fontWeight: 700 }}>SIGNALING STATUS</span>
-              <CheckCircle2 size={16} color="var(--text-primary)" />
-            </div>
-            <h4 style={{ color: 'var(--text-primary)', marginTop: '6px', fontSize: '0.9rem', fontWeight: 700 }}>SIG-126-01 (Point Machine Caution)</h4>
-            <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px' }}>Assigned to Block B104 for calibration.</p>
-          </div>
-          <div style={{ background: 'var(--bg-card-secondary)', padding: '16px', borderRadius: '6px', border: '1px solid var(--border-color)' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <span style={{ fontSize: '0.7rem', color: 'var(--text-tertiary)', fontWeight: 700 }}>OHE CATENARY WIRE</span>
-              <CheckCircle2 size={16} color="var(--text-primary)" />
-            </div>
-            <h4 style={{ color: 'var(--text-primary)', marginTop: '6px', fontSize: '0.9rem', fontWeight: 700 }}>OHE-125-04 (Cantilever Normal)</h4>
-            <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px' }}>Shadow inspection co-scheduled.</p>
-          </div>
+          ) : (
+            tasks.slice(0, 3).map((task) => (
+              <div key={task.task_id} style={{ background: 'var(--bg-card-secondary)', padding: '16px', borderRadius: '6px', border: '1px solid var(--border-color)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <span style={{ fontSize: '0.7rem', color: 'var(--text-tertiary)', fontWeight: 700 }}>{task.asset_type} HEALTH</span>
+                  <ShieldAlert size={16} color="var(--text-primary)" />
+                </div>
+                <h4 style={{ color: 'var(--text-primary)', marginTop: '6px', fontSize: '0.9rem', fontWeight: 700 }}>{task.asset_id} ({task.defect_type})</h4>
+                <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px' }}>{task.department} Dept • Severity: {task.severity}</p>
+              </div>
+            ))
+          )}
         </div>
       </div>
     </div>

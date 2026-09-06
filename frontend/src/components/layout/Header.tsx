@@ -16,6 +16,9 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
     { id: 'digital-twin', label: '3. Live Digital Twin' },
     { id: 'analytics', label: '4. Executive ROI' },
     { id: 'field', label: '5. Field Assistant' },
+    { id: 'coa-live', label: '6. COA Live Trains & NTES Delays' },
+    { id: 'request-portal', label: '7. Raise Defect Request' },
+    { id: 'reports', label: '8. Master Timetable Reports' },
   ];
 
   const handleRunOptimizer = () => {
@@ -103,7 +106,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
           boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
         }}>
           <CheckCircle2 size={18} />
-          <span>AI Optimization Successful: Combined Track & OHE maintenance into 1 non-conflicting block window (BLK-20260905-01). 0 train delays predicted!</span>
+          <span>AI Optimization Engine complete: CP-SAT solver executed successfully with 0 train delays predicted!</span>
         </div>
       )}
 

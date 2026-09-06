@@ -33,8 +33,10 @@ class AIPriorityEngine:
         ))
 
         # Overdue / Due Date Proximity Factor
-        now = datetime.now()
-        due_diff_hours = (task.due_date - now).total_seconds() / 3600.0
+        now = datetime.now(timezone.utc)
+        # Normalize due_date to aware UTC; if naive, assume UTC
+        due = task.due_date if task.due_date.tzinfo else task.due_date.replace(tzinfo=timezone.utc)
+        due_diff_hours = (due - now).total_seconds() / 3600.0
         time_score = 0.0
         if due_diff_hours <= 0:
             time_score = 35.0

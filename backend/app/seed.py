@@ -11,11 +11,22 @@ from optimizer.solver.cpsat_solver import BlockOptimizerSolver
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("seed")
 
+def clear_all_tables(db: Session):
+    """Purges all demo, mock, and temporary data from database tables."""
+    db.query(BlockRecommendationORM).delete()
+    db.query(BlockRequestORM).delete()
+    db.query(TaskORM).delete()
+    db.query(TrainORM).delete()
+    db.commit()
+    logger.info("✓ Database cleared: All maintenance tasks, block requests, train schedules, and recommendations purged.")
+
 def init_db(db: Session):
-    """Initializes schema tables and populates seed data from adapters and solver."""
-    # 1. Create tables
+    """Initializes schema tables and populates data from adapters and solver."""
+    # 1. Create tables & purge demo data
     Base.metadata.create_all(bind=engine)
+    clear_all_tables(db)
     logger.info("✓ Database schema tables initialized.")
+
 
     # 2. Seed Maintenance Tasks
     normalizer = DataNormalizerService()
@@ -46,6 +57,10 @@ def init_db(db: Session):
     logger.info(f"✓ Seeded maintenance_tasks table (Total: {task_count} tasks).")
 
     # 3. Seed Train Schedules
+    # Clear any legacy synthetic mock train entries from DB
+    db.query(TrainORM).filter(TrainORM.train_id.in_(["EXP-102", "FREIGHT-204"])).delete(synchronize_session=False)
+    db.commit()
+
     normalized_trains = normalizer.get_all_normalized_trains()
     for tr in normalized_trains:
         existing = db.query(TrainORM).filter(TrainORM.train_id == tr.train_id).first()

@@ -28,7 +28,13 @@ export const PriorityList: React.FC<PriorityListProps> = ({ priorities, tasks })
       </div>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-        {priorities.map((item) => {
+        {priorities.length === 0 ? (
+          <div style={{ padding: '30px', textAlign: 'center', color: 'var(--text-secondary)', background: 'var(--bg-card-secondary)', borderRadius: '6px', border: '1px border-color' }}>
+            <p style={{ fontWeight: 700, fontSize: '0.9rem' }}>No pending maintenance defects found</p>
+            <p style={{ fontSize: '0.8rem', marginTop: '4px' }}>All railway corridor assets are currently operating cleanly without reported faults.</p>
+          </div>
+        ) : (
+          priorities.map((item) => {
           const task = tasks.find(t => t.task_id === item.task_id);
           const isExpanded = expandedTask === item.task_id;
 
@@ -107,7 +113,7 @@ export const PriorityList: React.FC<PriorityListProps> = ({ priorities, tasks })
               )}
             </div>
           );
-        })}
+        }))}
       </div>
     </div>
   );

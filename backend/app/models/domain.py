@@ -49,6 +49,8 @@ class TrainSchedule(BaseModel):
     train_number: str
     train_name: str
     train_type: TrainTypeEnum
+    type_label: Optional[str] = None
+    runs_days: Optional[str] = "Daily"
     corridor_id: str = "CORRIDOR-A"
     start_km: float
     end_km: float

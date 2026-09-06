@@ -58,10 +58,11 @@ export const BlockTetrisGantt: React.FC<BlockTetrisGanttProps> = ({ blocks, task
               <div key={cIdx} style={{ height: '42px', background: 'var(--bg-dark)', borderRadius: '4px', border: '1px solid var(--border-color)' }} />
             ))}
 
-            {/* Block B104 on Section A (KM 124-126) at 01:00-03:00 */}
-            {rIdx === 1 && (
+            {/* Render blocks dynamically */}
+            {blocks.length > 0 && rIdx === 1 && blocks.map((blk) => (
               <div
-                onClick={() => setSelectedBlock(blocks[0])}
+                key={blk.block_id}
+                onClick={() => setSelectedBlock(blk)}
                 style={{
                   position: 'absolute',
                   left: 'calc(180px + (100% - 180px) * 1 / 9 + 4px)',
@@ -83,12 +84,14 @@ export const BlockTetrisGantt: React.FC<BlockTetrisGanttProps> = ({ blocks, task
                 }}
               >
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                  <span>BLOCK B104 (CLICK ME)</span>
+                  <span>{blk.block_id}</span>
                   <span>01:00 - 03:00</span>
                 </div>
-                <span style={{ fontSize: '0.65rem', color: '#27272a', fontWeight: 700 }}>✓ Combined Track & OHE Repair</span>
+                <span style={{ fontSize: '0.65rem', color: '#a1a1aa', fontWeight: 700 }}>
+                  ✓ {blk.participating_departments.join(' & ')} Work
+                </span>
               </div>
-            )}
+            ))}
           </div>
         ))}
       </div>

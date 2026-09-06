@@ -3,9 +3,7 @@ import { Smartphone, Send } from 'lucide-react';
 
 export const FieldAssistant: React.FC = () => {
   const [messages, setMessages] = useState([
-    { sender: 'System', text: 'BLOCK B104 (KM 125-127) scheduled for 01:00 - 03:00 tomorrow.', time: '18:30' },
-    { sender: 'Engineering', text: 'Track gang & tamping machine standing by at KM 125.', time: '00:55' },
-    { sender: 'System', text: '✓ Block B104 Confirmed & Granted by Control Office.', time: '01:00' },
+    { sender: 'System', text: 'Field Assistant Log initialized. Ready for real-time block status updates.', time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) },
   ]);
 
   const [input, setInput] = useState('');

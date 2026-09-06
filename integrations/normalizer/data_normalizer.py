@@ -90,6 +90,8 @@ class DataNormalizerService:
                 train_number=item['train_number'],
                 train_name=item['train_name'],
                 train_type=TrainTypeEnum(item['train_type']),
+                type_label=item.get('type_label'),
+                runs_days=item.get('runs_days', 'Daily'),
                 corridor_id=item['corridor_id'],
                 start_km=item['start_km'],
                 end_km=item['end_km'],

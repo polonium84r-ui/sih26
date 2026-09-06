@@ -21,7 +21,13 @@ export const DominoView: React.FC<DominoViewProps> = ({ impacts }) => {
       </div>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-        {impacts.map((item) => (
+        {impacts.length === 0 ? (
+          <div style={{ padding: '30px', textAlign: 'center', color: 'var(--text-secondary)', background: 'var(--bg-card-secondary)', borderRadius: '6px', border: '1px border-color' }}>
+            <p style={{ fontWeight: 700, fontSize: '0.9rem' }}>No cascade risks evaluated</p>
+            <p style={{ fontSize: '0.8rem', marginTop: '4px' }}>No active defects exist that threaten train schedule delays or secondary asset failures.</p>
+          </div>
+        ) : (
+          impacts.map((item) => (
           <div 
             key={item.task_id}
             style={{
@@ -80,7 +86,7 @@ export const DominoView: React.FC<DominoViewProps> = ({ impacts }) => {
               </div>
             </div>
           </div>
-        ))}
+        ))) }
       </div>
     </div>
   );

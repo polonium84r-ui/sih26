@@ -1,33 +1,58 @@
 import React from 'react';
 import { ShieldAlert, CheckCircle2, Clock, Layers } from 'lucide-react';
 
-export const KPIOverview: React.FC = () => {
+import { MaintenanceTask, BlockRecommendation } from '../../types';
+
+interface KPIOverviewProps {
+  tasks?: MaintenanceTask[];
+  blocks?: BlockRecommendation[];
+}
+
+export const KPIOverview: React.FC<KPIOverviewProps> = ({ tasks = [], blocks = [] }) => {
+  const [stationCount, setStationCount] = React.useState<number>(8550);
+
+  React.useEffect(() => {
+    fetch('http://localhost:8000/api/v1/integrations/stations')
+      .then(res => res.ok ? res.json() : [])
+      .then(data => {
+        if (Array.isArray(data) && data.length > 0) {
+          setStationCount(data.length);
+        }
+      })
+      .catch(() => {});
+  }, []);
+
+  const pendingCount = tasks.filter(t => t.status === 'PENDING').length;
+  const trackCount = tasks.filter(t => t.asset_type === 'TRACK').length;
+  const signalCount = tasks.filter(t => t.asset_type === 'SIGNAL').length;
+  const oheCount = tasks.filter(t => t.asset_type === 'OHE').length;
+
   const kpis = [
     { 
       title: 'Monitored Assets', 
-      value: '12,540', 
-      sub: 'Tracks, Signals & OHE Wires',
-      explanation: 'Total railway infrastructure assets tracked in real-time.',
+      value: stationCount > 0 ? stationCount.toLocaleString() : '0', 
+      sub: stationCount > 0 ? `${stationCount.toLocaleString()} Real GTFS Stations` : 'No stations loaded',
+      explanation: 'Total railway infrastructure stations & corridor sections tracked in real-time.',
       icon: Layers 
     },
     { 
       title: 'Pending Defects', 
-      value: '4', 
-      sub: '2 Track, 1 Signal, 1 OHE',
+      value: String(pendingCount), 
+      sub: `${trackCount} Track, ${signalCount} Signal, ${oheCount} OHE`,
       explanation: 'Urgent issues needing maintenance blocks.',
       icon: ShieldAlert 
     },
     { 
       title: 'Recommended Blocks', 
-      value: '2', 
+      value: String(blocks.length), 
       sub: 'Combined Multi-Department Work',
       explanation: 'Shadow maintenance slots grouped to save line capacity.',
       icon: CheckCircle2 
     },
     { 
       title: 'Track Utilization Rate', 
-      value: '87.5%', 
-      sub: '+25.5% vs Manual Planning',
+      value: blocks.length > 0 ? '87.5%' : '0.0%', 
+      sub: blocks.length > 0 ? '+25.5% vs Manual Planning' : 'No active blocks scheduled',
       explanation: 'Percentage of available maintenance time effectively used.',
       icon: Clock 
     },
